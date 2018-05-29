@@ -1,0 +1,423 @@
+/*
+Template CSS :  Project Name;
+Version :       1.0;
+Author :        workbythai;
+*/
+
+
+
+
+/*------------------------------------*
+$CONTENTS
+*------------------------------------*/
+/**
+* FONT-FACE...........Import brand font files
+* RESET...............Set our reset defaults
+* ELEMENT ............Such as h1,ul,p,footer
+* OBJECT..............Such as h1.title, p.text-center
+* COMPONENT...........Including many object
+* STYLE...............Other style
+* RESPONSIVE..........Responsive for 5 devices
+*/
+
+
+
+/*------------------------------------*
+$FONTFACE
+*------------------------------------*/
+@font-face {
+    font-family: 'kanitbold';
+    src: url('../fonts/kanit/kanit-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitlight';
+    src: url('../fonts/kanit/kanit-light-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitmedium';
+    src: url('../fonts/kanit/kanit-medium-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kanitregular';
+    src: url('../fonts/kanit/kanit-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kanit/kanit-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*------------------------------------*
+$RESET
+*------------------------------------*/
+
+  a:hover{
+    text-decoration: none;
+  }
+
+/*------------------------------------*
+$ELEMENT
+*------------------------------------*/
+
+  body{
+    background: #000b35 url('../../assets/images/footer.jpg') no-repeat center bottom;
+    background-size: 100vw 50vh;
+    min-height:100vh;
+    font-family: 'kanitregular';
+    font-size: calc(0.2vw + 12px);
+  }
+
+  .wrapper{
+    background: url('../../assets/images/bg2.jpg') no-repeat center top;
+    background-size: 100vw 70vh;
+    min-height:calc(100vh - 349px);
+  }
+
+
+  img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+/*------------------------------------*
+$OBJECT
+*------------------------------------*/
+
+  .navbar-toggler{
+    border-color:white !important;
+  }
+
+
+  .mobile-nav .nav-item .active font{
+    color:#f04345;
+    text-shadow: -1px 0px 0 #f04345;
+  }
+
+  .mobile-nav .nav-item:hover font{
+    color:#f04345;
+    text-shadow: -1px 0px 0 #f04345;
+  }
+
+  .desktop-nav .nav-item .active font{
+    text-shadow: -1px 0px 0 #f04345;
+    border-bottom: 2px solid #f04345;
+  }
+
+  .desktop-nav .nav-item:hover font{
+    text-shadow: -1px 0px 0 white;
+    border-bottom: 2px solid #f04345;
+
+  }
+
+  .desktop-nav2 .nav-item:hover font{
+    text-shadow: -1px 0px 0 #f04345;
+  }
+
+  .nav-item .fa{
+    font-size: calc(0.2vw + 16px);
+    margin-right: 7px;
+  }
+
+  .nav-item font{
+    font-size: calc(0.2vw + 16px);
+    border-bottom: 2px solid transparent;
+    transition: all 1s;
+  }
+
+  .desktop-nav .nav-item font{
+    font-size: calc(0.2vw + 19px);
+    text-shadow: -1px 0px 0 #ed4345;
+  }
+
+  .nav-item{
+    margin-left: 1vw;
+    margin-top: calc(1vh - 5px);
+  }
+
+  .navbar-collapse .flex-row{
+    height:100%;
+  }
+
+  .navbar-nav{
+    padding:1vh 0 1vh 0;
+  }
+
+
+/*------------------------------------*
+$COMPONENT
+*------------------------------------*/
+
+
+/*------------------------------------*
+$STYLE
+*------------------------------------*/
+
+  /*---------- general ------------*/
+
+      .red{
+        color:#f04345;
+      }
+
+      .white{
+        color:white;
+      }
+
+  /*--------- END general ---------*/
+
+  .footer-logo{
+    display:flex;
+    flex-direction: row;
+  }
+
+  .footer-navigator font{
+    font-size:2vmin;
+  }
+
+  .top{
+    background-color:black;
+  }
+
+  .bottom{
+    background-color:white;
+  }
+
+  .logo-frame{
+    position:relative;
+    overflow:hidden;
+    width:10vw;
+    height:13vh;
+  }
+
+  .logo-frame2{
+    position:relative;
+    overflow:hidden;
+    width:7vw;
+    height:10vh;
+    margin-right: 1vw;
+  }
+
+
+
+  .search-btn{
+    transition: all 0s;
+    background-color:white;
+    border-right:1px solid black;
+    border-radius: 16px 16px 16px 16px;
+  }
+
+  .search-btn:focus{
+    box-shadow: none;
+  }
+
+  .search-btn:active{
+    background-color:#f04345;
+    color:white;
+  }
+
+  .search-btn:active i{
+    color:white;
+  }
+
+  .search-form{
+    border: none;
+    border-radius: 16px 16px 16px 16px;
+  }
+
+  .search-form:focus{
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: none;
+  }
+
+
+/*------------------------------------*
+$RESPONSIVE
+*------------------------------------*/
+
+@media(max-width: 1366px){
+
+  /*------------------------------------*
+  $General min 1366
+  *------------------------------------*/
+
+    .wrapper{
+      min-height:calc(100vh - 378px);
+    }
+
+    .logo-frame{
+      width:17vw;
+    }
+
+    .logo-frame2{
+      width:15vw;
+      height:12vh;
+      margin-right: 2vw;
+    }
+
+
+  /*------------------------------------*
+  $END General min 1366
+  *------------------------------------*/
+
+}
+
+@media(max-width: 1024px){
+
+  /*------------------------------------*
+  $General min 1024
+  *------------------------------------*/
+
+    body{
+      background-size: 100vw 30vh;
+    }
+
+    .wrapper{
+      background-size: 100vw 40vh;
+      min-height:calc(100vh - 389px);
+    }
+
+    .logo-frame{
+      width:20vw;
+      height:10vh;
+    }
+
+    .logo-frame2{
+      width:15vw;
+      height:7vh;
+      margin-right: 2vw;
+    }
+
+    .mobile-nav .nav-item i{
+      margin-top: calc(2vh - 5px);
+    }
+
+  /*------------------------------------*
+  $END General min 1024
+  *------------------------------------*/
+
+}
+
+@media(max-width: 768px){
+
+  /*------------------------------------*
+  $General min 1024
+  *------------------------------------*/
+
+    .wrapper{
+      min-height:calc(100vh - 216px);
+    }
+
+
+    .logo-frame2{
+      width:15vw;
+      height:8vh;
+    }
+
+
+  /*------------------------------------*
+  $END General min 1024
+  *------------------------------------*/
+
+}
+
+@media(max-width: 414px){
+
+  /*------------------------------------*
+  $General min 414
+  *------------------------------------*/
+
+    body{
+      background-size: 100vw 70vh;
+    }
+
+    .wrapper{
+      background-size: 100vw 30vh;
+      min-height:calc(100vh - 341px);
+    }
+
+    .footer-logo .footer-navigator{
+      margin-top: 2vw;
+    }
+
+    .footer-logo{
+      flex-direction: column;
+    }
+
+    .logo-frame2{
+      width:40vw;
+      height:14vh;
+    }
+
+    .logo-frame{
+      width:30vw;
+      height:12vh;
+    }
+
+    .footer-navigator font{
+      font-size:2vmax;
+    }
+
+
+  /*------------------------------------*
+  $END General min 414
+  *------------------------------------*/
+
+}
+
+@media(max-width: 375px){
+
+  /*------------------------------------*
+  $General min 375
+  *------------------------------------*/
+
+  .wrapper{
+    min-height:calc(100vh - 315px);
+  }
+
+
+  /*------------------------------------*
+  $END General min 375
+  *------------------------------------*/
+
+}
+
+@media (max-width: 320px ){
+
+  /*------------------------------------*
+  $General min 300
+  *------------------------------------*/
+
+    .wrapper{
+      min-height:calc(100vh - 299px);
+    }
+
+    .logo-frame{
+      position:relative;
+      overflow:hidden;
+      width:40vw;
+      height:15vh;
+    }
+
+
+  /*------------------------------------*
+  $END General min 300
+  *------------------------------------*/
+
+}
