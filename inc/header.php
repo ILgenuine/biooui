@@ -5,7 +5,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="robots" content="index, follow, all">
-    <meta name="author" content="IL">
+    <meta name="author" content="workbythai">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
