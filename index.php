@@ -271,7 +271,7 @@
                       <div class="col-lg-4 col-md-4 col-12 mt-5">
                         <div class="reason-box">
                           <div class="reason-img-frame">
-                            <img src="assets/images/why01.png">
+                            <img class="reson-img" src="assets/images/why01.png">
                           </div>
                           <div class="reason-head">
                             <font>เนื้อหากระชับ เข้าใจง่าย</font>
@@ -284,7 +284,7 @@
                       <div class="col-lg-4 col-md-4 col-12 mt-5">
                         <div class="reason-box">
                           <div class="reason-img-frame">
-                            <img src="assets/images/why02.png">
+                            <img class="reson-img"  src="assets/images/why02.png">
                           </div>
                           <div class="reason-head">
                             <font>คุ้มราคา</font>
@@ -297,7 +297,7 @@
                       <div class="col-lg-4 col-md-4 col-12 mt-5">
                         <div class="reason-box">
                           <div class="reason-img-frame">
-                            <img src="assets/images/why03.png">
+                            <img class="reason-img"  src="assets/images/why03.png">
                           </div>
                           <div class="reason-head">
                             <font>แหล่งคลังความรู้</font>

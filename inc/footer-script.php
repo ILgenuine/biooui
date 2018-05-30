@@ -24,6 +24,16 @@
              $(this).css({'height':'auto'});
            }
         });
+
+        $( '.reason-img' ).each( function (){
+           var iw = $(this).width();
+           $('.reason-img-frame').css({'height':iw+'px'});
+        });
+
+
+
+
+
       }
 
     </script>

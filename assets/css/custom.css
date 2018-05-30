@@ -428,11 +428,9 @@ INDEX
     overflow:hidden;
   }
 
-
   .whyus-box h2{
     font-size: calc(0.2vw + 35px);
   }
-
 
   .reason-img-frame{
     margin-left: auto;
@@ -440,7 +438,7 @@ INDEX
     position:relative;
     overflow:hidden;
     width:40%;
-    height:15vh;
+    /* height:20vh; */
   }
 
   .reason-head{
@@ -743,7 +741,7 @@ END REGISTER
 
     .reason-img-frame {
       width: 60%;
-      height: 20vh;
+      /* height: 20vh; */
     }
 
     .reason-description {
@@ -899,7 +897,7 @@ END REGISTER
 
     .reason-img-frame {
       width: 50%;
-      height: 30vh;
+      /* height: 30vh; */
     }
 
     .reason-head {

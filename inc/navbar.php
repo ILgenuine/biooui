@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark top">
 <div class="container">
       <div class="logo-frame">
-        <a class="" href="#"><img src="assets/images/logo.png"></a>
+        <a class="" href="index.php"><img src="assets/images/logo.png"></a>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
