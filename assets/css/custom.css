@@ -472,6 +472,62 @@ INDEX
 END INDEX
 *------------------------------------*/
 
+
+/*------------------------------------
+LOGIN
+-------------------------------------*/
+.login-font-head {
+  font-size: 30px;
+  color: #f04345;
+}
+.login-line-text {
+  margin-top: 85px;
+  line-height: 85px;
+}
+.login-bnt {
+  background-color: transparent;
+  color: #f14344;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 33.33%;
+}
+.login-bnt:hover {
+  background-color: #f14344;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 33.33%;
+}
+.login-mt-40px {
+      margin: 40px 0px;
+}
+/*------------------------------------
+END LOGIN 
+-------------------------------------*/
+/*------------------------------------
+REGISTER
+--------------------------------------*/
+.register-label {
+    display: inline-block;
+    margin-bottom: 0px!important;
+}
+.register-from-size {
+      margin: 0px 300px;
+}
+.register-bnt {
+    width: 145px;
+    border-radius: 25px;
+    background-color: #f04343;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*------------------------------------
+END REGISTER
+--------------------------------------*/
+
 @media(max-width: 1366px){
 
   /*------------------------------------*
@@ -557,7 +613,15 @@ END INDEX
   /*------------------------------------*
   $END General min 1024
   *------------------------------------*/
-
+  /*-----------------------------------
+  LOGIN
+  -------------------------------------*/
+  .register-from-size {
+      margin: 0px 240px;
+  }
+  /*-----------------------------------
+  END LOGIN
+  -------------------------------------*/
 
 
 
@@ -617,7 +681,15 @@ END INDEX
   /*------------------------------------*
   $END General min 768
   *------------------------------------*/
-
+  /*------------------------------------
+  LOGIN 768
+  --------------------------------------*/
+  .register-from-size {
+      margin: 0px 120px;
+  }
+  /*------------------------------------
+  END LOGIN 768
+  --------------------------------------*/
 
   /*------------------------------------*
   INDEX 768
@@ -700,6 +772,38 @@ END INDEX
   /*------------------------------------*
   $END General min 414
   *------------------------------------*/
+  /*-----------------------------------
+  LOGIN min 414
+  -------------------------------------*/
+
+  .register-from-size {
+    margin: 0px 30px;
+  }
+  .login-mt-40px {
+    margin: 40px 40px;
+  }
+  .login-text-center-414 {
+    text-align: center;
+    padding: 0px 30px;
+  }
+
+  .login-bnt {
+    background-color: transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+  }
+  .login-bnt:hover {
+    background-color: #f14344;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+  }
+  /*------------------------------------
+  END LOGIN min 414
+  --------------------------------------*/
 
 
   /*------------------------------------*
@@ -791,7 +895,20 @@ END INDEX
   /*------------------------------------*
   $END General min 375
   *------------------------------------*/
+  /*------------------------------------
+  LOGIN
+  --------------------------------------*/
+  .register-from-size {
+      margin: 0px 15px;
+  }
+  .login-text-center-414 {
+    text-align: center;
+    padding: 0px 15px;
+  }
 
+  /*------------------------------------
+  END LOGIN
+  --------------------------------------*/
 
   /*------------------------------------*
   Index 375
