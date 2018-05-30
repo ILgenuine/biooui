@@ -519,6 +519,7 @@ REGISTER
 .register-label {
     display: inline-block;
     margin-bottom: 0px!important;
+    margin-left: 5px;
 }
 .register-from-size {
       margin: 0px 300px;
@@ -536,6 +537,19 @@ REGISTER
 /*------------------------------------
 END REGISTER
 --------------------------------------*/
+
+/*-----------------------------------
+PROFILE 
+-------------------------------------*/
+.profile-font22 {
+  font-size: 22px
+}
+.form-control {
+    border-radius: 10px;
+}
+/*-----------------------------------
+END PROFILE
+-------------------------------------*/
 
 @media(max-width: 1366px){
 
@@ -600,7 +614,7 @@ END REGISTER
     }
 
     .wrapper{
-      background-size: 100vw 40vh;
+      background-size: 100vw 40vh; 
       min-height:calc(100vh - 389px);
     }
 
@@ -627,6 +641,22 @@ END REGISTER
   -------------------------------------*/
   .register-from-size {
       margin: 0px 240px;
+  }
+  .bnt-register-forget  {
+    background-color:transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 15px;
+  }
+  .bnt-register-forget:hover {
+    background-color: #f14344;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 15px;
   }
   /*-----------------------------------
   END LOGIN
@@ -711,6 +741,15 @@ END REGISTER
     font-size: 18px;
     width: 30%;
     margin-left: 15px;
+  }
+  .register-bnt {
+    width: 145px;
+    border-radius: 25px;
+    background-color: #f04343;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
   /*------------------------------------
   END LOGIN 768
@@ -819,6 +858,10 @@ END REGISTER
     font-size: 18px;
     width: 100%;
   }
+  .login-font-head {
+      font-size: 23px;
+      color: #f04345;
+  }
   .bnt-register-forget  {
     background-color:transparent;
     color: #f14344;
@@ -836,6 +879,15 @@ END REGISTER
     width: 100%;
     margin-top: 15px;
     margin-left: 0px;
+  }
+  .register-bnt {
+      width: 145px;
+      border-radius: 25px;
+      background-color: #f04343;
+      color: #fff;
+      font-size: 16px;
+      margin-top: 30px;
+      margin-bottom: 30px;
   }
   /*------------------------------------
   END LOGIN min 414
@@ -914,7 +966,20 @@ END REGISTER
   /*------------------------------------*
   END INDEX 414
   *------------------------------------*/
-
+  /*------------------------------------
+  PROFILE
+  --------------------------------------*/
+  .profile-font22 {
+      font-size: 20px;
+      text-align: center;
+      margin-bottom: 35px;
+  }
+  .profile-bntcenter-414 {
+    text-align: center;
+  }
+  /*------------------------------------
+  END PROFILE
+  --------------------------------------*/
 }
 
 @media(max-width: 375px){
@@ -959,6 +1024,10 @@ END REGISTER
     margin-top: 15px;
     margin-left: 0px;
   }
+  .login-font-head {
+      font-size: 22px;
+      color: #f04345;
+  }
   /*------------------------------------
   END LOGIN
   --------------------------------------*/
@@ -996,12 +1065,17 @@ END REGISTER
   /*------------------------------------*
   End Index 375
   *------------------------------------*/
-
-
-
-
-
-
+  /*------------------------------------
+  PROFILE
+  --------------------------------------*/
+  .profile-font22 {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 35px;
+  }
+  /*------------------------------------
+  END PROFILE
+  --------------------------------------*/
 }
 
 @media (max-width: 320px ){
@@ -1068,11 +1142,25 @@ END REGISTER
     margin-top: 10px;
     margin-left: 0px;
   }
+  .login-font-head {
+      font-size: 19px;
+      color: #f04345;
+  }
    /*-----------------------------------
    END LOGIN
    -------------------------------------  */
 
-
+  /*------------------------------------
+  PROFILE
+  --------------------------------------*/
+  .profile-font22 {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 35px;
+  }
+  /*------------------------------------
+  END PROFILE
+  --------------------------------------*/
 
 
 
