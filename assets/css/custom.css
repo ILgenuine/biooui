@@ -84,7 +84,7 @@ General
 
   .wrapper{
     background: url('../../assets/images/bg2.jpg') no-repeat center top;
-    background-size: 100vw 70vh;
+    background-size: 100vw 50vh;
     min-height:calc(100vh - 349px);
   }
 
@@ -485,24 +485,33 @@ LOGIN
   line-height: 85px;
 }
 .login-bnt {
-  background-color: transparent;
-  color: #f14344;
-  border-radius: 25px;
-  font-size: 18px;
-  width: 33.33%;
-}
-.login-bnt:hover {
   background-color: #f14344;
   color: #fff;
   border-radius: 25px;
   font-size: 18px;
   width: 33.33%;
 }
+.bnt-register-forget  {
+  background-color:transparent;
+  color: #f14344;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 30%;
+  margin-left: 17px;
+}
+.bnt-register-forget:hover {
+  background-color: #f14344;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 18px;
+  width: 30%;
+  margin-left: 17px;
+}
 .login-mt-40px {
       margin: 40px 0px;
 }
 /*------------------------------------
-END LOGIN 
+END LOGIN
 -------------------------------------*/
 /*------------------------------------
 REGISTER
@@ -687,6 +696,22 @@ END REGISTER
   .register-from-size {
       margin: 0px 120px;
   }
+  .bnt-register-forget  {
+    background-color:transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 15px;
+  }
+  .bnt-register-forget:hover {
+    background-color: #f14344;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 30%;
+    margin-left: 15px;
+  }
   /*------------------------------------
   END LOGIN 768
   --------------------------------------*/
@@ -788,18 +813,29 @@ END REGISTER
   }
 
   .login-bnt {
-    background-color: transparent;
+    background-color: #f14344;
     color: #f14344;
     border-radius: 25px;
     font-size: 18px;
     width: 100%;
   }
-  .login-bnt:hover {
+  .bnt-register-forget  {
+    background-color:transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .bnt-register-forget:hover {
     background-color: #f14344;
     color: #fff;
     border-radius: 25px;
     font-size: 18px;
     width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
   }
   /*------------------------------------
   END LOGIN min 414
@@ -905,7 +941,24 @@ END REGISTER
     text-align: center;
     padding: 0px 15px;
   }
-
+  .bnt-register-forget  {
+    background-color:transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
+  .bnt-register-forget:hover {
+    background-color: #f14344;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0px;
+  }
   /*------------------------------------
   END LOGIN
   --------------------------------------*/
@@ -994,7 +1047,30 @@ END REGISTER
   /*------------------------------------*
   END Index 320
   *------------------------------------*/
-
+  /* -----------------------------------
+  LOGIN
+  -------------------------------------- */
+  .bnt-register-forget  {
+    background-color:transparent;
+    color: #f14344;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .bnt-register-forget:hover {
+    background-color: #f14344;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+   /*-----------------------------------
+   END LOGIN
+   -------------------------------------  */
 
 
 

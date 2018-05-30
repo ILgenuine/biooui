@@ -11,12 +11,12 @@
         <div class="flex-row ml-auto">
                 <ul class="navbar-nav mobile-nav text-lg-right text-md-left text-center">
                   <li class="nav-item active">
-                    <a href="">
+                    <a href="register.php">
                       <i class="fa fa-user red" aria-hidden="true"></i><font class="white">สมัครสมาชิก</font>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="">
+                    <a href="login.php">
                       <i class="fa fa-sign-out red" aria-hidden="true"></i><font class="white">เข้าสู่ระบบ</font>
                     </a>
                   </li>
