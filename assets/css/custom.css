@@ -70,6 +70,9 @@ General
     text-decoration: none;
   }
 
+  section{
+    margin-bottom: 10vh;
+  }
 
   body{
     background: #000b35 url('../../assets/images/footer.jpg') no-repeat center bottom;
@@ -82,6 +85,12 @@ General
   .wrapper{
     background: url('../../assets/images/bg2.jpg') no-repeat center top;
     background-size: 100vw 70vh;
+    min-height:calc(100vh - 349px);
+  }
+
+  .shark{
+    background: url('../../assets/images/bg1.jpg') no-repeat center top;
+    background-size: 100vw 75vh;
     min-height:calc(100vh - 349px);
   }
 
@@ -243,13 +252,221 @@ INDEX
 
   .header-text{
     width:100%;
-    height:3rem;
+    height: calc(2vw + 22px);
     overflow:hidden;
   }
 
   .header-text h1{
-    font-size: calc(1);
+    font-size: calc(2vw + 12px);
   }
+
+  .header-text h2{
+    font-size: calc(2vw + 6px);
+  }
+
+  .header-text label{
+    font-size: calc(0.2vw + 16px);
+    padding-right: 20%;
+  }
+
+  .header-text .input-group{
+    width:50%;
+  }
+
+  .header-text .input-group i{
+    background-color: #f04345;
+    padding:15px 15px 15px 15px;
+    font-size: calc(0.2vw + 25px);
+    border-radius:8px 0px 0px 8px;
+  }
+
+  .header-text .input-group .input-group-prepend{
+    padding:5px 10px 5px 5px;
+    background-color: #d6393b;
+    border-radius:0px 8px 8px 0px;
+  }
+
+  .header-text .input-group span{
+    color:white;
+    font-size: calc(0.2vw + 25px);
+  }
+
+  .course-header{
+    font-size: calc(0.2vw + 25px);
+    margin-bottom: 2vh;
+  }
+
+  .course-header i{
+    padding: 7px;
+    margin-right: calc(1vw - 5px);
+    color:#f04345;
+  }
+
+  .course-header font{
+    font-size: calc(0.2vw + 20px);
+    color:white;
+  }
+
+  .course-card{
+    position:relative;
+    width:100%;
+    height:45vh;
+    overflow:hidden;
+    border:none;
+  }
+
+  .course-card-body{
+    position:relative;
+    width:100%;
+    height:auto;
+    padding:0;
+  }
+
+  .course-card-img{
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    height:40vh;
+  }
+
+  .bookmark{
+    color:#f04345;
+    font-size:40px;
+    position:absolute;
+    top:-3%;
+    right:5%;
+  }
+
+  .course-content{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    margin-bottom:1vh;
+
+  }
+
+  .course-choose :hover{
+    cursor:pointer;
+  }
+
+  .course-choose{
+    width:100%;
+    height:5vh;
+    padding-top: 1vh;
+    text-align: center;
+    background-color: #f04345;
+  }
+
+  .course-choose label{
+    color:white;
+    font-size: calc(0.2vw + 16px);
+  }
+
+  .card-title-frame{
+    width:100%;
+    padding:0 5% 0 5%;
+    height:4.5vh;
+    overflow:hidden;
+    margin-bottom:0.5vh;
+  }
+
+  .course-content .card-title{
+    font-size: calc(0.2vw + 16px);
+    color:white;
+  }
+
+  .fade-bg{
+    position:absolute;
+    height:40vh;
+    width:100%;
+    background:linear-gradient(to bottom, #00000000 10%, rgb(27, 27, 27) 70%)
+  }
+
+  .card-description-frame{
+    width:100%;
+    padding:0 5% 0 5%;
+    height:3.3vh;
+    overflow:hidden;
+  }
+
+  .card-description-frame label{
+    font-size: calc(0.2vw + 25px);
+    color:white;
+  }
+
+  .card-description-currency{
+    width:100%;
+    padding:0 5% 0 5%;
+    overflow:hidden;
+  }
+
+  .card-description-currency p{
+    font-size: calc(0.2vw + 16px);
+    color:#CCC;
+  }
+
+  .course-box{
+    height:41vh;
+    overflow-y: auto;
+  }
+
+  .discount{
+    margin-left: 1vw;
+    font-size: calc(0.2vw + 14px) !important;
+    color:#f04345 !important;
+    text-decoration: line-through;
+  }
+
+  .whyus-box{
+    text-align: center;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid white;
+    padding-bottom: 1.5vh;
+    height: 5.5vh;
+    overflow:hidden;
+  }
+
+
+  .whyus-box h2{
+    font-size: calc(0.2vw + 35px);
+  }
+
+
+  .reason-img-frame{
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    overflow:hidden;
+    width:40%;
+    height:15vh;
+  }
+
+  .reason-head{
+    margin: 1vh 0 1vh 0;
+    text-align:center;
+    height: 4.5vh;
+    overflow: hidden;
+  }
+
+  .reason-head font{
+    font-size: calc(0.2vw + 25px);
+    color: white;
+  }
+
+  .reason-description {
+    text-align:center;
+    height: 9vh;
+    overflow: hidden;
+  }
+
+  .reason-description font{
+    font-size: calc(0.2vw + 16px);
+    color: #CCC;
+  }
+
+
 
 /*------------------------------------*
 END INDEX
@@ -280,6 +497,27 @@ END INDEX
   $END General min 1366
   *------------------------------------*/
 
+
+
+  /*------------------------------------*
+  INDEX 1366
+  *------------------------------------*/
+
+    .header-text{
+      width:100%;
+      height: calc(2vw + 30px);
+      overflow:hidden;
+    }
+
+    .course-box {
+      height: 41vh;
+    }
+
+  /*------------------------------------*
+  END INDEX 1366
+  *------------------------------------*/
+
+
 }
 
 @media(max-width: 1024px){
@@ -287,6 +525,10 @@ END INDEX
   /*------------------------------------*
   $General min 1024
   *------------------------------------*/
+
+    section{
+      margin-bottom: 5vh;
+    }
 
     body{
       background-size: 100vw 30vh;
@@ -316,12 +558,49 @@ END INDEX
   $END General min 1024
   *------------------------------------*/
 
+
+
+
+    /*------------------------------------*
+    INDEX 1024
+    *------------------------------------*/
+
+      .header-height{
+        height:30vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+      }
+
+      .header-text{
+        width:100%;
+        height: calc(2vw + 45px);
+        overflow:hidden;
+      }
+
+      .course-card {
+        height: 25vh;
+      }
+
+      .course-box {
+        height: 23vh;
+      }
+
+      .reason-head {
+        margin: 1vh 0 1vh 0;
+        height: 3vh;
+      }
+
+    /*------------------------------------*
+    END INDEX 1024
+    *------------------------------------*/
+
+
 }
 
 @media(max-width: 768px){
 
   /*------------------------------------*
-  $General min 1024
+  $General min 768
   *------------------------------------*/
 
     .wrapper{
@@ -336,7 +615,46 @@ END INDEX
 
 
   /*------------------------------------*
-  $END General min 1024
+  $END General min 768
+  *------------------------------------*/
+
+
+  /*------------------------------------*
+  INDEX 768
+  *------------------------------------*/
+
+    .header-height{
+      height:35vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+
+
+    .header-text{
+      width:100%;
+      height: calc(2vw + 40px);
+      overflow:hidden;
+    }
+
+    .course-card {
+      height: 45vh;
+    }
+
+    .course-box {
+      margin-top: 5vh;
+    }
+
+    .reason-img-frame {
+      width: 60%;
+      height: 20vh;
+    }
+
+    .reason-description {
+      height: 10vh;
+    }
+
+  /*------------------------------------*
+  END INDEX 768
   *------------------------------------*/
 
 }
@@ -383,6 +701,80 @@ END INDEX
   $END General min 414
   *------------------------------------*/
 
+
+  /*------------------------------------*
+  INDEX 414
+  *------------------------------------*/
+
+
+    .shark{
+      background: url('../../assets/images/bg2.jpg') no-repeat center top;
+      background-size: 100vw 40vh;
+      min-height:calc(100vh - 349px);
+    }
+
+    .header-height{
+      height:50vh;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+    }
+
+    .header-text .input-group{
+      width:100%;
+    }
+
+    .header-height .mt-4{
+      height: calc(2vw + 50px);
+    }
+
+    .course-card{
+      margin-bottom:5vh;
+      height: 60vh;
+    }
+
+    .course-card-img {
+      height: 60vh;
+    }
+
+    .fade-bg {
+      height: 60vh;
+    }
+
+    .card-title-frame {
+      height: 5vh;
+    }
+
+    .card-description-frame {
+      height: 5vh;
+    }
+
+    .course-choose {
+      height: 8vh;
+      padding-top: 2vh;
+    }
+
+    .course-box {
+      height:33vh;
+    }
+
+    .reason-img-frame {
+      width: 50%;
+      height: 30vh;
+    }
+
+    .reason-head {
+      margin: 1vh 0 1vh 0;
+      height: 6vh;
+    }
+
+    .whyus-box {
+      height: 12.5vh;
+    }
+
+  /*------------------------------------*
+  END INDEX 414
+  *------------------------------------*/
+
 }
 
 @media(max-width: 375px){
@@ -399,6 +791,46 @@ END INDEX
   /*------------------------------------*
   $END General min 375
   *------------------------------------*/
+
+
+  /*------------------------------------*
+  Index 375
+  *------------------------------------*/
+
+  .course-card{
+    margin-bottom:5vh;
+    height: 70vh;
+  }
+
+  .course-card-img {
+    height: 70vh;
+  }
+
+  .fade-bg {
+    height: 70vh;
+  }
+
+  .card-title-frame {
+    height: 6vh;
+  }
+
+  .card-description-frame {
+    height: 6vh;
+  }
+
+
+  .whyus-box {
+    height: 14vh;
+  }
+
+  /*------------------------------------*
+  End Index 375
+  *------------------------------------*/
+
+
+
+
+
 
 }
 
@@ -423,5 +855,32 @@ END INDEX
   /*------------------------------------*
   $END General min 300
   *------------------------------------*/
+
+
+  /*------------------------------------*
+  Index 320
+  *------------------------------------*/
+
+  .course-box {
+    height:38vh;
+  }
+
+  .whyus-box {
+    width: 90%;
+    height: 16vh;
+  }
+
+  .reason-description {
+    height: 13vh;
+  }
+
+  /*------------------------------------*
+  END Index 320
+  *------------------------------------*/
+
+
+
+
+
 
 }

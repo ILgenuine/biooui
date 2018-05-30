@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer mt-5">
   <nav class="navbar navbar-expand-lg navbar-dark top">
     <div class="container">
       <div class="footer-logo mr-lg-auto mr-md-auto mx-auto text-center">

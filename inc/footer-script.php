@@ -16,7 +16,6 @@
              $(this).css({'height':100+'%'});
            }
            else if(ih > iw){
-             alert('this');
              $(this).css({'width':100+'%'});
              $(this).css({'height':'auto'});
            }
