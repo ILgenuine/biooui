@@ -109,7 +109,11 @@ General
   .white{
     color:white;
   }
-
+  .border-white {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    border-color: #fff;
+}
 
   .navbar-toggler{
     border-color:white !important;
@@ -549,6 +553,49 @@ PROFILE
 END PROFILE
 -------------------------------------*/
 
+/*-----------------------------------
+MYCOURSE
+-------------------------------------*/
+.mycourse-bnt-size {
+      width: 190px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+}
+.mycourse-bnt-group {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-radius: 0px 5px 5px 0px;
+      overflow: hidden;
+      width: 225px;
+}
+.mycourse-font-respon {
+  font-size: calc(1.1vw + 14px);
+}
+/*-----------------------------------
+END MYCOURSE
+-------------------------------------*/
+/*-----------------------------------
+PAYMENT
+-------------------------------------*/
+.payment-font-respon {
+    font-size: calc(0.8vw + 14px);
+}
+/*-----------------------------------
+END PAYMENT
+-------------------------------------*/
+
+/*-------------------------------------
+BOOKING
+---------------------------------------*/
+.booking-bnt-size {
+    overflow: hidden;
+    width: 190px;
+    margin-top: 0px;
+}
+/*---------------------------------------
+END BOOKING
+-----------------------------------------*/
+
 @media(max-width: 1366px){
 
   /*------------------------------------*
@@ -695,7 +742,19 @@ END PROFILE
     END INDEX 1024
     *------------------------------------*/
 
-
+    /*-----------------------------------
+    MY COURSE 1024
+    -------------------------------------*/
+    .mycourse-bnt-group {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 0px 5px 5px 0px;
+        overflow: hidden;
+        width: 250px;
+    }
+    /*-----------------------------------
+    END MY COURSE 1024
+    -------------------------------------*/
 }
 
 @media(max-width: 768px){
@@ -791,6 +850,19 @@ END PROFILE
   END INDEX 768
   *------------------------------------*/
 
+  /*------------------------------------
+  MYCOURSE 768
+  --------------------------------------*/
+    .mycourse-bnt-group {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        border-radius: 0px 5px 5px 0px;
+        overflow: hidden;
+        width: 250px;
+    }
+  /*------------------------------------
+  END MYCOURSE 768
+  --------------------------------------*/
 }
 
 @media(max-width: 414px){
@@ -977,6 +1049,19 @@ END PROFILE
   }
   /*------------------------------------
   END PROFILE
+  --------------------------------------*/
+  /*------------------------------------
+  MYCOURSE 414
+  --------------------------------------*/
+  .mycourse-bnt-group {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-radius: 0px 5px 5px 0px;
+      overflow: hidden;
+      width: 250px;
+  }
+  /*------------------------------------
+  END MYCOURSE 414
   --------------------------------------*/
 }
 

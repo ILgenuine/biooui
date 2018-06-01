@@ -27,7 +27,7 @@
 
 
         <div class="row">
-          <div class="col-lg-5 col-md-5 col-12">
+          <div class="col-lg-4 col-md-5 col-12">
             <div class="profile-font22">
               <div class="mb-2">
                 <a href="#" class="text-white"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
@@ -40,34 +40,28 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-5 col-md-7 col-12">
-            <form class="px-3">
-                <div class="form-group">
-                  <label class="text-white register-label">ชื่อ</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="text-white register-label">อีเมล</label>
-                  <input type="email" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="text-white register-label">เบอร์โทรศํพท์</label>
-                  <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="text-white register-label">รหัสผ่าน</label>
-                  <input type="password" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label class="text-white register-label">ยืนยันรหัสผ่าน</label>
-                  <input type="password" class="form-control">
-                </div>
-                <div class="form-group profile-bntcenter-414">
-                  <button type="button" class="btn register-bnt">ยืนยันแก้ไข</button>
-                </div>
-            </form>
+
+
+          <div class="col-lg-8 col-md-7 col-12">
+            <div class="row">
+              <div class="col-12">
+                 <div class="text-white">
+                    <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
+                    <p> 2,500 บาท ชำระวันที่ 20/06/2561</p>
+                  </div>
+                  <hr class="border-white">
+              </div>
+
+
+              <div class="col-12">
+                 <div class="text-white">
+                    <h3 class="payment-font-respon">พฤติกรรมของสัตว์เลือดอุ่นในทวีปเชีย</h3>
+                    <p> 2,500 บาท ชำระวันที่ 20/06/2561</p>
+                  </div>
+                  <hr class="border-white">
+              </div>              
+            </div>
           </div>
-          <div class="col-lg-2 col-12"></div>
         </div> 
         
 
