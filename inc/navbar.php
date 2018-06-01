@@ -37,16 +37,16 @@
                 <!-- collapse nav -->
                 <ul class="navbar-nav d-lg-none d-block mobile-nav text-md-left text-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#"><font class="white">หน้าหลัก</font></a>
+                      <a class="nav-link active" href="index.php"><font class="white">หน้าหลัก</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><font class="white">เกี่ยวกับเรา</font></a>
+                      <a class="nav-link" href="aboutus.php"><font class="white">เกี่ยวกับเรา</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><font class="white">คอร์สเรียน</font></a>
+                      <a class="nav-link" href="course.php"><font class="white">คอร์สเรียน</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#"><font class="white">ติดต่อเรา</font></a>
+                      <a class="nav-link" href="contactus.php"><font class="white">ติดต่อเรา</font></a>
                     </li>
                 </ul>
         </div>
@@ -57,17 +57,17 @@
   <div class="container">
 
     <ul class="navbar-nav desktop-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link active" href="#"><font class="red">หน้าหลัก</font></a>
+      <li class="nav-item ml-0">
+        <a class="nav-link active" href="index.php"><font class="red">หน้าหลัก</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><font class="red">เกี่ยวกับเรา</font></a>
+        <a class="nav-link" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><font class="red">คอร์สเรียน</font></a>
+        <a class="nav-link" href="course.php"><font class="red">คอร์สเรียน</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#"><font class="red">ติดต่อเรา</font></a>
+        <a class="nav-link" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
       </li>
     </ul>
 

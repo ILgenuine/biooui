@@ -25,14 +25,33 @@
            }
         });
 
-        $( '.reason-img' ).each( function (){
+        $('.reason-img').each( function (){
            var iw = $(this).width();
+           $(this).css({'height':iw+'px'});
            $('.reason-img-frame').css({'height':iw+'px'});
         });
 
 
+        $('.figure-frame').each( function (){
+          var iw = $(this).width();
+          $(this).css({'height':iw+'px'});
+          $('.figure-col').css({'height':iw+'px'});
+        });
 
 
+        $('.course-card-img').each( function (){
+          var iw = $(this).width();
+
+          if(window.matchMedia("(min-width: 769px)").matches) {
+          var iw = iw * 1.5;
+          }
+          else{
+            var iw = iw;
+          }
+
+          $('.course-col').css({'height':iw+'px'});
+          $('.course-description').css({'height':iw+'px'});
+        });
 
       }
 

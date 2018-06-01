@@ -66,6 +66,36 @@ $FONTFACE
 General
 *------------------------------------*/
 
+label{
+  margin-bottom: 0 !important;
+}
+
+[class*=col-] {
+  margin-bottom: 3vh;
+}
+
+::-webkit-scrollbar {
+      width: 7px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      border-radius: 8px;
+      background-color: #ffffff17;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: #f04345;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      display:none;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
   a:hover{
     text-decoration: none;
   }
@@ -103,17 +133,17 @@ General
   }
 
   .red{
-    color:#f04345;
+    color:#f04345 !important;
   }
 
   .white{
-    color:white;
+    color:white !important;
   }
-  .border-white {
-    margin-top: 0rem;
-    margin-bottom: 2rem;
-    border-color: #fff;
-}
+
+  .grey{
+    color:#7b7b7b !important;
+  }
+
 
   .navbar-toggler{
     border-color:white !important;
@@ -274,7 +304,7 @@ INDEX
   }
 
   .header-text .input-group{
-    width:50%;
+    width:100%;
   }
 
   .header-text .input-group i{
@@ -316,6 +346,7 @@ INDEX
     width:100%;
     height:45vh;
     overflow:hidden;
+    border-radius:0 !important;
     border:none;
   }
 
@@ -474,7 +505,6 @@ INDEX
 END INDEX
 *------------------------------------*/
 
-
 /*------------------------------------
 LOGIN
 -------------------------------------*/
@@ -541,7 +571,7 @@ END REGISTER
 --------------------------------------*/
 
 /*-----------------------------------
-PROFILE 
+PROFILE
 -------------------------------------*/
 .profile-font22 {
   font-size: 22px
@@ -595,6 +625,94 @@ BOOKING
 /*---------------------------------------
 END BOOKING
 -----------------------------------------*/
+
+/*------------------------------------*
+About us
+*------------------------------------*/
+
+  .aboutus-header{
+    height: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .figure-frame{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+  }
+
+  .aboutus-description{
+    width:100%;
+    height:100%;
+    overflow-y:auto;
+  }
+
+  .aboutus-description font{
+    color:white;
+    font-size: calc(0.2vw + 14px);
+  }
+
+  .page-link {
+      position: relative;
+      display: block;
+      padding: .5rem .75rem;
+      margin-left: -1px;
+      line-height: 1.25;
+      color: #f04345;
+      background-color: #000;
+      border: 1px solid #f04345;
+      border-radius: 4px;
+      margin-left: 0.2vw;
+      margin-right: 0.2vw;
+  }
+
+  .page-item.disabled .page-link {
+    color: #821617;
+    background-color: #000;
+    border: 1px solid #821617;
+  }
+
+  .page-item.active .page-link {
+      z-index: 1;
+      color: #fff;
+      background-color: #f04345;
+      border-color: #f04345;
+      border-radius: 4px;
+  }
+
+/*------------------------------------*
+END About us
+*------------------------------------*/
+
+
+/*------------------------------------*
+Course Detail
+*------------------------------------*/
+
+  .course-detail-box .course-header{
+    border-bottom: 2px solid white;
+    padding-bottom: 1vh;
+  }
+
+/*------------------------------------*
+END Course Detail
+*------------------------------------*/
+
+
+
+/*------------------------------------*
+Contact Us
+*------------------------------------*/
+
+  .g-map{
+    border: 2px solid #f04345 !important;
+  }
+
+/*------------------------------------*
+END Contact Us
+*------------------------------------*/
+
 
 @media(max-width: 1366px){
 
@@ -659,7 +777,7 @@ END BOOKING
     }
 
     .wrapper{
-      background-size: 100vw 40vh; 
+      background-size: 100vw 40vh;
       min-height:calc(100vh - 389px);
     }
 
@@ -681,32 +799,6 @@ END BOOKING
   /*------------------------------------*
   $END General min 1024
   *------------------------------------*/
-  /*-----------------------------------
-  LOGIN
-  -------------------------------------*/
-  .register-from-size {
-      margin: 0px 240px;
-  }
-  .bnt-register-forget  {
-    background-color:transparent;
-    color: #f14344;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 30%;
-    margin-left: 15px;
-  }
-  .bnt-register-forget:hover {
-    background-color: #f14344;
-    color: #fff;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 30%;
-    margin-left: 15px;
-  }
-  /*-----------------------------------
-  END LOGIN
-  -------------------------------------*/
-
 
 
     /*------------------------------------*
@@ -721,7 +813,7 @@ END BOOKING
 
       .header-text{
         width:100%;
-        height: calc(2vw + 45px);
+        height: calc(2vw + 40px);
         overflow:hidden;
       }
 
@@ -738,9 +830,43 @@ END BOOKING
         height: 3vh;
       }
 
+      .reason-description {
+        height: 7.5vh;
+      }
+
+      .course-choose {
+        padding-top: 1.5vh;
+      }
+
     /*------------------------------------*
     END INDEX 1024
     *------------------------------------*/
+
+    /*-----------------------------------
+    LOGIN 1024
+    -------------------------------------*/
+    .register-from-size {
+        margin: 0px 240px;
+    }
+    .bnt-register-forget  {
+      background-color:transparent;
+      color: #f14344;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 30%;
+      margin-left: 15px;
+    }
+    .bnt-register-forget:hover {
+      background-color: #f14344;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 30%;
+      margin-left: 15px;
+    }
+    /*-----------------------------------
+    END LOGIN 1024
+    -------------------------------------*/
 
     /*-----------------------------------
     MY COURSE 1024
@@ -755,6 +881,27 @@ END BOOKING
     /*-----------------------------------
     END MY COURSE 1024
     -------------------------------------*/
+
+
+    /*------------------------------------*
+    aboutus 1024
+    *------------------------------------*/
+
+    .aboutus-header {
+      height: 12vh;
+      padding-top: 3vh;
+      padding-bottom: 2vh;
+    }
+
+    .aboutus-header .header-text{
+      height: calc(2vw + 12px);
+    }
+
+    /*------------------------------------*
+    END aboutus 1024
+    *------------------------------------*/
+
+
 }
 
 @media(max-width: 768px){
@@ -777,40 +924,56 @@ END BOOKING
   /*------------------------------------*
   $END General min 768
   *------------------------------------*/
+
+
   /*------------------------------------
-  LOGIN 768
+    LOGIN 768
   --------------------------------------*/
-  .register-from-size {
-      margin: 0px 120px;
-  }
-  .bnt-register-forget  {
-    background-color:transparent;
-    color: #f14344;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 30%;
-    margin-left: 15px;
-  }
-  .bnt-register-forget:hover {
-    background-color: #f14344;
-    color: #fff;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 30%;
-    margin-left: 15px;
-  }
-  .register-bnt {
-    width: 145px;
-    border-radius: 25px;
-    background-color: #f04343;
-    color: #fff;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-  }
+    .register-from-size {
+        margin: 0px 120px;
+    }
+    .bnt-register-forget  {
+      background-color:transparent;
+      color: #f14344;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 30%;
+      margin-left: 15px;
+    }
+    .bnt-register-forget:hover {
+      background-color: #f14344;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 30%;
+      margin-left: 15px;
+    }
+    .register-bnt {
+      width: 145px;
+      border-radius: 25px;
+      background-color: #f04343;
+      color: #fff;
+      font-size: 18px;
+      margin-top: 15px;
+      margin-bottom: 30px;
+    }
   /*------------------------------------
   END LOGIN 768
   --------------------------------------*/
+
+/*------------------------------------
+MYCOURSE 768
+--------------------------------------*/
+  .mycourse-bnt-group {
+      margin-bottom: 0px;
+      margin-top: 0px;
+      border-radius: 0px 5px 5px 0px;
+      overflow: hidden;
+      width: 250px;
+  }
+/*------------------------------------
+END MYCOURSE 768
+--------------------------------------*/
 
   /*------------------------------------*
   INDEX 768
@@ -850,19 +1013,27 @@ END BOOKING
   END INDEX 768
   *------------------------------------*/
 
-  /*------------------------------------
-  MYCOURSE 768
-  --------------------------------------*/
-    .mycourse-bnt-group {
-        margin-bottom: 0px;
-        margin-top: 0px;
-        border-radius: 0px 5px 5px 0px;
-        overflow: hidden;
-        width: 250px;
-    }
-  /*------------------------------------
-  END MYCOURSE 768
-  --------------------------------------*/
+
+  /*------------------------------------*
+  aboutus 768
+  *------------------------------------*/
+
+  .aboutus-header {
+    height: 12vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+  }
+
+  .aboutus-header .header-text{
+    height: calc(2vw + 12px);
+  }
+
+  /*------------------------------------*
+  END aboutus 768
+  *------------------------------------*/
+
+
+
 }
 
 @media(max-width: 414px){
@@ -873,6 +1044,11 @@ END BOOKING
 
     body{
       background-size: 100vw 70vh;
+    }
+
+    [class*=col-12] {
+      padding-left:  5vw;
+      padding-right:  5vw;
     }
 
     .wrapper{
@@ -964,6 +1140,38 @@ END BOOKING
   --------------------------------------*/
 
 
+/*------------------------------------
+PROFILE
+--------------------------------------*/
+.profile-font22 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.profile-bntcenter-414 {
+  text-align: center;
+}
+/*------------------------------------
+END PROFILE
+--------------------------------------*/
+
+
+/*------------------------------------
+MYCOURSE 414
+--------------------------------------*/
+.mycourse-bnt-group {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-radius: 0px 5px 5px 0px;
+    overflow: hidden;
+    width: 250px;
+}
+/*------------------------------------
+END MYCOURSE 414
+--------------------------------------*/
+
+
+
   /*------------------------------------*
   INDEX 414
   *------------------------------------*/
@@ -1036,33 +1244,41 @@ END BOOKING
   /*------------------------------------*
   END INDEX 414
   *------------------------------------*/
-  /*------------------------------------
-  PROFILE
-  --------------------------------------*/
-  .profile-font22 {
-      font-size: 20px;
-      text-align: center;
-      margin-bottom: 35px;
+
+
+  /*------------------------------------*
+  aboutus 414
+  *------------------------------------*/
+
+  .aboutus-header {
+    height: 12vh;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    margin-bottom:calc(3vh - 4vw);
   }
-  .profile-bntcenter-414 {
-    text-align: center;
+
+  .aboutus-header .header-text{
+    height: calc(2vw + 25px);
   }
-  /*------------------------------------
-  END PROFILE
-  --------------------------------------*/
-  /*------------------------------------
-  MYCOURSE 414
-  --------------------------------------*/
-  .mycourse-bnt-group {
-      margin-bottom: 0px;
-      margin-top: 0px;
-      border-radius: 0px 5px 5px 0px;
-      overflow: hidden;
-      width: 250px;
+
+  .aboutus-header h1{
+    font-size: calc(2vw + 25px);
   }
-  /*------------------------------------
-  END MYCOURSE 414
-  --------------------------------------*/
+
+  .aboutus-header h2{
+    font-size: calc(2vw + 20px);
+  }
+
+  .figure-col{
+    margin-bottom:3vh;
+  }
+
+
+  /*------------------------------------*
+  END aboutus 414
+  *------------------------------------*/
+
+
 }
 
 @media(max-width: 375px){
@@ -1077,43 +1293,58 @@ END BOOKING
 
 
   /*------------------------------------*
-  $END General min 375
+  $END General  375
   *------------------------------------*/
+
+
   /*------------------------------------
-  LOGIN
-  --------------------------------------*/
-  .register-from-size {
-      margin: 0px 15px;
-  }
-  .login-text-center-414 {
-    text-align: center;
-    padding: 0px 15px;
-  }
-  .bnt-register-forget  {
-    background-color:transparent;
-    color: #f14344;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 100%;
-    margin-top: 15px;
-    margin-left: 0px;
-  }
-  .bnt-register-forget:hover {
-    background-color: #f14344;
-    color: #fff;
-    border-radius: 25px;
-    font-size: 18px;
-    width: 100%;
-    margin-top: 15px;
-    margin-left: 0px;
-  }
-  .login-font-head {
-      font-size: 22px;
-      color: #f04345;
-  }
-  /*------------------------------------
-  END LOGIN
-  --------------------------------------*/
+    LOGIN 375
+    --------------------------------------*/
+    .register-from-size {
+        margin: 0px 15px;
+    }
+    .login-text-center-414 {
+      text-align: center;
+      padding: 0px 15px;
+    }
+    .bnt-register-forget  {
+      background-color:transparent;
+      color: #f14344;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 100%;
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    .bnt-register-forget:hover {
+      background-color: #f14344;
+      color: #fff;
+      border-radius: 25px;
+      font-size: 18px;
+      width: 100%;
+      margin-top: 15px;
+      margin-left: 0px;
+    }
+    .login-font-head {
+        font-size: 22px;
+        color: #f04345;
+    }
+    /*------------------------------------
+    END LOGIN 375
+    --------------------------------------*/
+
+
+    /*------------------------------------
+    PROFILE 375
+    --------------------------------------*/
+    .profile-font22 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    /*------------------------------------
+    END PROFILE 375
+    --------------------------------------*/
 
   /*------------------------------------*
   Index 375
@@ -1148,17 +1379,21 @@ END BOOKING
   /*------------------------------------*
   End Index 375
   *------------------------------------*/
-  /*------------------------------------
-  PROFILE
-  --------------------------------------*/
-  .profile-font22 {
-      font-size: 18px;
-      text-align: center;
-      margin-bottom: 35px;
-  }
-  /*------------------------------------
-  END PROFILE
-  --------------------------------------*/
+
+
+  /*------------------------------------*
+  aboutus 375
+  *------------------------------------*/
+
+
+
+  /*------------------------------------*
+  END aboutus 375
+  *------------------------------------*/
+
+
+
+
 }
 
 @media (max-width: 320px ){
@@ -1204,9 +1439,11 @@ END BOOKING
   /*------------------------------------*
   END Index 320
   *------------------------------------*/
+
+
   /* -----------------------------------
-  LOGIN
-  -------------------------------------- */
+  LOGIN 320
+  -------------------------------------*/
   .bnt-register-forget  {
     background-color:transparent;
     color: #f14344;
@@ -1230,20 +1467,31 @@ END BOOKING
       color: #f04345;
   }
    /*-----------------------------------
-   END LOGIN
-   -------------------------------------  */
+   END LOGIN 320
+   ------------------------------------*/
 
-  /*------------------------------------
-  PROFILE
-  --------------------------------------*/
-  .profile-font22 {
-      font-size: 16px;
-      text-align: center;
-      margin-bottom: 35px;
-  }
-  /*------------------------------------
-  END PROFILE
-  --------------------------------------*/
+   /*------------------------------------
+   PROFILE 320
+   ------------------------------------*/
+   .profile-font22 {
+       font-size: 16px;
+       text-align: center;
+       margin-bottom: 35px;
+   }
+   /*------------------------------------
+   END PROFILE 320
+   ------------------------------------*/
+
+
+   /*------------------------------------*
+   aboutus 320
+   *------------------------------------*/
+
+
+   /*------------------------------------*
+   END aboutus 320
+   *------------------------------------*/
+
 
 
 

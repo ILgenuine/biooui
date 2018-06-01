@@ -78,9 +78,11 @@
                               </div>
                             </div>
                           </div>
-                          <div class="course-choose">
-                            <a href="#"><label>เลือกคอร์สเรียน</label></a>
-                          </div>
+                          <a href="coursedetail.php">
+                            <div class="course-choose">
+                              <label>เลือกคอร์สเรียน</label>
+                            </div>
+                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-12">
@@ -106,9 +108,11 @@
                               </div>
                             </div>
                           </div>
-                          <div class="course-choose">
-                            <a href="#"><label>เลือกคอร์สเรียน</label></a>
-                          </div>
+                          <a href="coursedetail.php">
+                            <div class="course-choose">
+                              <label>เลือกคอร์สเรียน</label>
+                            </div>
+                          </a>
                         </div>
                       </div>
                   </div>
@@ -220,9 +224,11 @@
                               </div>
                             </div>
                           </div>
-                          <div class="course-choose">
-                            <a href="#"><label>เลือกคอร์สเรียน</label></a>
-                          </div>
+                          <a href="coursedetail.php">
+                            <div class="course-choose">
+                              <label>เลือกคอร์สเรียน</label>
+                            </div>
+                          </a>
                         </div>
                       </div>
                       <div class="col-md-6 col-12">
@@ -248,9 +254,11 @@
                               </div>
                             </div>
                           </div>
-                          <div class="course-choose">
-                            <a href="#"><label>เลือกคอร์สเรียน</label></a>
-                          </div>
+                          <a href="coursedetail.php">
+                            <div class="course-choose">
+                              <label>เลือกคอร์สเรียน</label>
+                            </div>
+                          </a>
                         </div>
                       </div>
                   </div>
