@@ -37,7 +37,7 @@
                 <!-- collapse nav -->
                 <ul class="navbar-nav d-lg-none d-block mobile-nav text-md-left text-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="index.php"><font class="white">หน้าหลัก</font></a>
+                      <a class="nav-link" href="index.php"><font class="white">หน้าหลัก</font></a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="aboutus.php"><font class="white">เกี่ยวกับเรา</font></a>
@@ -55,19 +55,19 @@
 </nav>
 <nav class="navbar navbar-expand-lg bottom d-lg-block d-none" role="navigator">
   <div class="container">
-
+    <?php $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>
     <ul class="navbar-nav desktop-nav mr-auto">
       <li class="nav-item ml-0">
-        <a class="nav-link active" href="index.php"><font class="red">หน้าหลัก</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/index.php" || $actual_link == "http://localhost/Biooui/index.php") echo "active"; else ""; ?>" href="index.php"><font class="red">หน้าหลัก</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/aboutus.php" || $actual_link == "http://localhost/Biooui/aboutus.php") echo "active"; else ""; ?>" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="course.php"><font class="red">คอร์สเรียน</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/course.php" || $actual_link == "http://localhost/Biooui/course.php") echo "active"; else ""; ?>" href="course.php"><font class="red">คอร์สเรียน</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/contactus.php" || $actual_link == "http://localhost/Biooui/contactus.php") echo "active"; else ""; ?>" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
       </li>
     </ul>
 
