@@ -18,7 +18,7 @@
       <div class="container">
 
         <div class="row py-5">
-          <div class="col-12 text-md-center">
+          <div class="col-12 text-lg-left text-center">
             <h1 class="login-font-head">
              <i class="fa fa-th-large" aria-hidden="true"></i> <font class="text-white">ยินดีต้อนรับ คุณสมชาย ขยันเรียน</font>
             </h1>
@@ -27,7 +27,7 @@
 
 
         <div class="row">
-          <div class="col-lg-4 col-12 pb-5 text-md-center">
+          <div class="col-md-4 col-12 pb-5">
             <div class="profile-font22">
               <div class="mb-2">
                 <a href="#" class="text-white"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
@@ -40,46 +40,50 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-8 col-12 pb-5">
 
-              <div class="row">
 
-                <div class="col-10">
-                  <div class="text-white"><h3 class="mycourse-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3></div>
-                  <div class="mb-3">
-                    <button type="button" class="btn register-bnt mycourse-bnt-size"><i class="fa fa-clock-o text-white" aria-hidden="true"></i> จองเวลาเรียน</button>
-                  </div>
-                </div>
-                <div class="col-2"></div>
+
+          <div class="col-md-8 col-12 pb-5">
+            <div class="col-12">
+              <div class="text-white text-md-left text-center">
+                <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
+                <div class="mt-3">
+                  <button type="button" class="btn register-bnt mycourse-bnt-size  mb-3">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i> จองเวลาเรียน
+                  </button>
+                </div>    
+                <hr class="mb-4" style="border-color: #fff;">
               </div>
-              <hr class="border-white">
+            </div>
 
-              <div class="row">
-                <div class="col-lg-10 col-md-9 col-9">
-                  <div class="text-white"><h3 class="mycourse-font-respon">พฤติกรรมของสัตว์เลือดอุ่นในทวีปเชีย</h3></div>
-                  <div style="margin-top: 30px;">
-                    <h5 class="text-white">เวลาที่เลือกจอง</h5>
-                    <div class="row">
-                      <div class="btn-group col-xl-6 col-lg-12 mb-3" role="group" aria-label="Basic example">
-                        <button type="button" class="btn" style="background-color: #bb2d23"><i class="fa fa-clock-o text-white" aria-hidden="true"></i></button>
-                        <button type="button" class="btn register-bnt mycourse-bnt-group">12/06/2561 10.00 - 12.00</button>
-                      </div>
-                      <div class="btn-group col-xl-6 col-lg-12 mb-3" role="group" aria-label="Basic example">
-                        <button type="button" class="btn" style="background-color: #bb2d23"><i class="fa fa-clock-o text-white" aria-hidden="true"></i></button>
-                        <button type="button" class="btn register-bnt mycourse-bnt-group">12/06/2561 10.00 - 12.00</button>
-                      </div>
-                    </div>
 
-                  </div>
+            <div class="col-12">
+              <div class="row text-white text-md-left text-center">
+                <div class="text-white col-md-9 col-12">
+                  <h3 class="payment-font-respon">พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</h3>
                 </div>
-                <div class="col-lg-2 col-md-3 col-3">
-                  <a  href="#" class="text-white mycourse-font-respon">
-                    <i class="fa fa-pencil-square-o red" aria-hidden="true"></i> แก้ไข
+                <div class="col-md-3 col-12">
+                  <a href="#" class="text-white text-md-right text-center">
+                    <h3 class="payment-font-respon">
+                      <i class="fa fa-pencil-square-o red" aria-hidden="true"></i> แก้ไข
+                    </h3>
                   </a>
                 </div>
-              </div>
-              <hr class="border-white">
 
+                <div class="col-12 mt-4">
+                  <p class="text-white mycourse-font-md">เวลาที่เลือกจอง</p>
+                  <div class="btn-group btn-group-lg mr-3 mb-3">
+                    <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+                    <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                  </div>
+                  <div class="btn-group btn-group-lg mr-3 mb-3">
+                    <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+                    <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                  </div>                  
+                </div>
+              </div>
+              <hr class="my-4" style="border-color: #fff;">
+            </div>
           </div>
         </div> 
         
@@ -102,3 +106,54 @@
 
   </body>
 </html>
+
+
+
+
+<!-- 
+            <div class="col-12">
+              <div class="text-white">
+                <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
+              </div>
+              <div class="mt-3">
+                <button type="button" class="btn register-bnt mycourse-bnt-size  mb-3"><i class="fa fa-clock-o" aria-hidden="true"></i> จองเวลาเรียน</button>
+              </div>
+              <hr class="my-4" style="border-color: #fff;">
+            </div>
+
+
+
+            <div class="col-12">
+
+
+
+              <div class="row mb-4">
+                <div class="text-white col-9">
+                  <h3 class="payment-font-respon">พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</h3>
+                </div>
+                <div class="col-3">
+                  <a href="#" class="text-white text-right">
+                    <h3 class="payment-font-respon"><i class="fa fa-pencil-square-o red" aria-hidden="true"></i> แก้ไข
+                    </h3>
+                  </a>
+                </div>
+              </div>
+              
+              <div class="text-white">
+                <h5>เวลาที่เลือกจอง</h5>
+              </div>  
+              <div class="mt-3">
+                <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+                  <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                </div>
+                <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
+                  <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                </div>
+              </div>
+
+
+              <hr class="my-4" style="border-color: #fff;">
+            </div>
+ -->

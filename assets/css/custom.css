@@ -549,6 +549,12 @@ PROFILE
 .form-control {
     border-radius: 10px;
 }
+.profile-from-size-auto {
+  width: 70%;
+}
+.profile-mb-0 {
+  margin-bottom: 0px!important;
+}
 /*-----------------------------------
 END PROFILE
 -------------------------------------*/
@@ -561,15 +567,18 @@ MYCOURSE
       margin-top: 0px;
       margin-bottom: 0px;
 }
-.mycourse-bnt-group {
-      margin-bottom: 0px;
-      margin-top: 0px;
-      border-radius: 0px 5px 5px 0px;
-      overflow: hidden;
-      width: 225px;
+.mycourse-bnt-forward {
+      font-size: 16px!important;
+      background-color: #c73a3a;
+      color: #fff;
 }
-.mycourse-font-respon {
-  font-size: calc(1.1vw + 14px);
+.mycourse-bnt-back {
+      font-size: 16px!important;
+      background-color: #f04343;
+      color: #fff;
+}
+.mycourse-font-md {
+  font-size: calc(0.5vw + 13px);
 }
 /*-----------------------------------
 END MYCOURSE
@@ -591,6 +600,49 @@ BOOKING
     overflow: hidden;
     width: 190px;
     margin-top: 0px;
+}
+.booking-bnt-right {
+    background-color: #f04343;
+    color: #ffffff;
+    width: 50px;
+    border-radius: 0px 7px 7px 0px;
+}
+.booking-bnt-left {
+    background-color: #f04343;
+    color: #ffffff;
+    width: 50px;
+    border-radius: 7px 0px 0px 7px;
+}
+.booking-bnt-today {
+    background-color: #f04343;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 20px;
+}
+.booking-border-card {
+    border-radius: 3px;
+    border: 5px solid #f04343;
+}
+
+.booking-border-topdot {
+  border-top: 2px dotted #e1e1e1!important;
+}
+.booking-border-bottomdot {
+  border-bottom: 2px dotted #e1e1e1!important;
+}
+.booking-card-header {
+  background-color: #fff;
+  border: none;
+}
+th,td {
+  border: 2px solid #e1e1e1;
+  font-weight: bold;
+}
+.booking-bntgrou-right {
+  margin-right: 15px;
+}
+.booking-text-top {
+      margin-top: 10px;
 }
 /*---------------------------------------
 END BOOKING
@@ -742,16 +794,25 @@ END BOOKING
     END INDEX 1024
     *------------------------------------*/
 
+    /*------------------------------------
+      PROFILE 1024
+    --------------------------------------*/
+    .profile-from-size-auto {
+      width: 90%;
+    }
+    /*------------------------------------
+    END PROFILE 1024
+    --------------------------------------*/
     /*-----------------------------------
     MY COURSE 1024
     -------------------------------------*/
-    .mycourse-bnt-group {
+/*    .mycourse-bnt-group {
         margin-bottom: 0px;
         margin-top: 0px;
         border-radius: 0px 5px 5px 0px;
         overflow: hidden;
         width: 250px;
-    }
+    }*/
     /*-----------------------------------
     END MY COURSE 1024
     -------------------------------------*/
@@ -853,16 +914,48 @@ END BOOKING
   /*------------------------------------
   MYCOURSE 768
   --------------------------------------*/
-    .mycourse-bnt-group {
+/*    .mycourse-bnt-group {
         margin-bottom: 0px;
         margin-top: 0px;
         border-radius: 0px 5px 5px 0px;
         overflow: hidden;
         width: 250px;
+    }*/
+    .mycourse-bnt-size {
+      width: 190px;
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
   /*------------------------------------
   END MYCOURSE 768
   --------------------------------------*/
+  /*------------------------------------
+  BOOKING 768 
+  --------------------------------------*/
+    th, td {
+      border: 2px solid #e1e1e1;
+      font-weight: bold;
+      font-size: 12px;
+  }
+  .booking-bnt-size {
+      overflow: hidden;
+      width: 190px;
+      margin-top: 0px;
+  }
+
+  /*------------------------------------
+  END BOOKING 768 
+  --------------------------------------*/
+
+  /*-------------------------------------
+  PROFILE 768
+  ---------------------------------------*/
+    .profile-from-size-auto {
+      width: 100%;
+    }
+  /*-------------------------------------
+  END PROFILE 768
+  ---------------------------------------*/
 }
 
 @media(max-width: 414px){
@@ -1053,15 +1146,23 @@ END BOOKING
   /*------------------------------------
   MYCOURSE 414
   --------------------------------------*/
-  .mycourse-bnt-group {
-      margin-bottom: 0px;
-      margin-top: 0px;
-      border-radius: 0px 5px 5px 0px;
-      overflow: hidden;
-      width: 250px;
-  }
+      .mycourse-bnt-size {
+        width: 190px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
   /*------------------------------------
   END MYCOURSE 414
+  --------------------------------------*/
+  /*------------------------------------
+  BOOKING 414
+  --------------------------------------*/
+  .booking-text-top {
+      margin-top: 10px;
+      text-align: center;
+  }
+  /*------------------------------------
+  END BOOKING 414
   --------------------------------------*/
 }
 
