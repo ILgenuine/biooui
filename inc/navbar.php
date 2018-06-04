@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="flex-row ml-auto">
                 <ul class="navbar-nav mobile-nav text-lg-right text-md-left text-center">
-                  <li class="nav-item active">
+                  <li class="nav-item">
                     <a href="register.php">
                       <i class="fa fa-user red" aria-hidden="true"></i><font class="white">สมัครสมาชิก</font>
                     </a>
@@ -20,7 +20,7 @@
                       <i class="fa fa-sign-out red" aria-hidden="true"></i><font class="white">เข้าสู่ระบบ</font>
                     </a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item phone">
                       <i class="fa fa-phone red" aria-hidden="true"></i><font class="white">02-214-0942, 089-681-4586</font>
                   </li>
                 </ul>

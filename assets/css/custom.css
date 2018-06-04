@@ -156,8 +156,14 @@ label{
   }
 
   .mobile-nav .nav-item:hover font{
-    color:#f04345;
-    text-shadow: -1px 0px 0 #f04345;
+    color:#f04345 !important;
+    text-shadow: -1px 0px 0 #f04345 !important;
+  }
+
+  .mobile-nav .phone:hover font{
+    color:white !important;
+    text-shadow: -1px 0px 0 white !important;
+    cursor: default;
   }
 
   .desktop-nav .nav-item .active font{
@@ -708,7 +714,7 @@ Contact Us
   .g-map{
     border: 2px solid #f04345 !important;
   }
- 
+
 
 /*------------------------------------*
 END Contact Us
