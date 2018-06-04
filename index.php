@@ -147,7 +147,7 @@
                   <div class="all-course">
                     <div class="course-header text-right">
                       <a href="#">
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <i class="fa fa-share" aria-hidden="true"></i>
                         <font>บทเรียนทั้งหมด</font>
                       </a>
                     </div>
@@ -193,7 +193,7 @@
                   <div class="all-course">
                     <div class="course-header text-right">
                       <a href="#">
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                        <i class="fa fa-share" aria-hidden="true"></i>
                         <font>บทเรียนทั้งหมด</font>
                       </a>
                     </div>
