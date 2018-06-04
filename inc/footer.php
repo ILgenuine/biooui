@@ -20,10 +20,10 @@
       <div class="footer-logo ml-lg-auto ml-md-auto  mx-auto">
         <div class="my-auto">
           <div class="footer-navigator mb-lg-3 mb-md-0 text-md-right text-center">
-            <a href=""><font class="white">หน้าหลัก</font></a><font class="white"> |</font>
-            <a href=""><font class="white">เกี่ยวกับเรา</font></a><font class="white"> |</font>
+            <a href="index.php"><font class="white">หน้าหลัก</font></a><font class="white"> |</font>
+            <a href="aboutus-php"><font class="white">เกี่ยวกับเรา</font></a><font class="white"> |</font>
             <a href=""><font class="white">คอร์สเรียน</font></a><font class="white"> |</font>
-            <a href=""><font class="white">ติดต่อเรา</font></a>
+            <a href="contactus.php"><font class="white">ติดต่อเรา</font></a>
           </div>
           <div class="footer-navigator">
             <font class="white">ALL RIGHT RESERVED 2018 BOIIUO.COM COPYRIGHT</font>

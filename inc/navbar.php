@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="flex-row ml-auto">
                 <ul class="navbar-nav mobile-nav text-lg-right text-md-left text-center">
-                  <li class="nav-item active">
+                  <li class="nav-item">
                     <a href="register.php">
                       <i class="fa fa-user red" aria-hidden="true"></i><font class="white">สมัครสมาชิก</font>
                     </a>
@@ -20,7 +20,7 @@
                       <i class="fa fa-sign-out red" aria-hidden="true"></i><font class="white">เข้าสู่ระบบ</font>
                     </a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item phone">
                       <i class="fa fa-phone red" aria-hidden="true"></i><font class="white">02-214-0942, 089-681-4586</font>
                   </li>
                 </ul>
@@ -37,16 +37,16 @@
                 <!-- collapse nav -->
                 <ul class="navbar-nav d-lg-none d-block mobile-nav text-md-left text-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#"><font class="white">หน้าหลัก</font></a>
+                      <a class="nav-link" href="index.php"><font class="white">หน้าหลัก</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><font class="white">เกี่ยวกับเรา</font></a>
+                      <a class="nav-link" href="aboutus.php"><font class="white">เกี่ยวกับเรา</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#"><font class="white">คอร์สเรียน</font></a>
+                      <a class="nav-link" href="course.php"><font class="white">คอร์สเรียน</font></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#"><font class="white">ติดต่อเรา</font></a>
+                      <a class="nav-link" href="contactus.php"><font class="white">ติดต่อเรา</font></a>
                     </li>
                 </ul>
         </div>
@@ -55,19 +55,19 @@
 </nav>
 <nav class="navbar navbar-expand-lg bottom d-lg-block d-none" role="navigator">
   <div class="container">
-
+    <?php $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>
     <ul class="navbar-nav desktop-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link active" href="#"><font class="red">หน้าหลัก</font></a>
+      <li class="nav-item ml-0">
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/index.php" || $actual_link == "http://localhost/Biooui/index.php") echo "active"; else ""; ?>" href="index.php"><font class="red">หน้าหลัก</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><font class="red">เกี่ยวกับเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/aboutus.php" || $actual_link == "http://localhost/Biooui/aboutus.php") echo "active"; else ""; ?>" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><font class="red">คอร์สเรียน</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/course.php" || $actual_link == "http://localhost/Biooui/course.php") echo "active"; else ""; ?>" href="course.php"><font class="red">คอร์สเรียน</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#"><font class="red">ติดต่อเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/contactus.php" || $actual_link == "http://localhost/Biooui/contactus.php") echo "active"; else ""; ?>" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
       </li>
     </ul>
 
