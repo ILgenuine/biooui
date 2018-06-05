@@ -17,8 +17,8 @@
     <div class="wrapper">
       <div class="container">
 
-        <div class="row py-5">
-          <div class="col-12 text-lg-left text-center">
+        <div class="row">
+          <div class="col-12 text-lg-left text-center" style="margin-top: 80px;margin-bottom: 40px;">
             <h1 class="login-font-head">
              <i class="fa fa-th-large" aria-hidden="true"></i> <font class="text-white">ยินดีต้อนรับ คุณสมชาย ขยันเรียน</font>
             </h1>
@@ -26,24 +26,24 @@
         </div>
 
 
-        <div class="row">
-          <div class="col-md-4 col-12 pb-5 ">
+        <div class="row mb-5">
+          <div class="col-md-4 col-12">
             <div class="profile-font22">
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
+                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
+                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
+                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
               </div>
             </div>
           </div>
 
 
 
-          <div class="col-md-8 col-12 pb-5">
+          <div class="col-md-8 col-12">
             <form>
               <div class="form-group">
                 <label class="text-white profile-mb-0">ชื่อ</label>
@@ -75,7 +75,7 @@
               </div>
             </form> 
             <form class="text-md-left text-center">
-              <button type="button" class="btn register-bnt mycourse-bnt-size my-3">ยืนยันการแก้ไข</button>              
+              <button type="button" class="btn profile-bnt-size register-bnt my-3">ยืนยันแก้ไข</button>              
             </form> 
           </div>
         </div> 

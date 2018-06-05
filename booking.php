@@ -25,8 +25,6 @@
               </div>
 
               <div class="col-md-8 col-12">
-               
-                  <!-- <h5 class="text-white booking-text-top">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h5> -->
                 <h1 class="booking-font-respon text-white text-md-left text-center">
                  เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4
                 </h1>           
@@ -36,6 +34,19 @@
                   <button type="button" class="btn booking-bnt-size register-bnt">ยืนยันเวลาจอง <i class="fa fa-share" aria-hidden="true"></i></button>
                 </div>
               </div>
+
+              <div class="col-12 text-md-left text-center booking-bnt-position">
+                <p class="text-white mycourse-font-md">เวลาที่เลือกจอง</p>
+                <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-times" aria-hidden="true"></i></button>
+                  <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                </div>
+                <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-times" aria-hidden="true"></i></button>
+                  <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
+                </div> 
+              </div>
+
             </div>
 
 

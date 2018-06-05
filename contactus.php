@@ -26,6 +26,8 @@
                 <h2 style="color: white;">ติดต่อเรา</h2>
               </div>
             </div>
+
+
             <div class="col-lg-6 col-md-12 col-12">
                 <div class="row">
                   <div class="col-12">
@@ -58,12 +60,14 @@
                   </div>
                 </div>
             </div>
+
+
             <div class="col-lg-6 col-md-12 col-12">
                 <div class="row ml-lg-5">
                   <div class="col-12 ">
                 	   <h4 style="color: #f04345;">สอบถาม-ข้อเสนอแนะ</h4>
                   </div>
-                  <div class="col-12 form-group mb-lg-4 ">
+                  <div class="col-12 form-group mb-lg-4">
                      <label class="text-white register-label">ชื่อ</label>
                      <input type="text" class="form-control">
                   </div>
@@ -71,22 +75,22 @@
                      <label class="text-white register-label">อีเมล์</label>
                      <input type="text" class="form-control">
                   </div>
-                  <div class="col-12 form-group mb-lg-4 ">
+                  <div class="col-12 form-group mb-lg-4">
                      <label class="text-white register-label">เบอร์โทรศัพท์</label>
                      <input type="text" class="form-control">
                   </div>
-                  <div class="col-12 form-group mb-lg-4 ">
+                  <div class="col-12 form-group mb-lg-4">
                      <label class="text-white register-label">รายละเอียด</label>
                      <textarea type="text" class="form-control" rows="6"></textarea>
                   </div>
                   <div class="col-12 mt-3">
                      <button type="button" class="btn booking-bnt-size register-bnt">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
                   </div>
-                   
                 </div>
             </div>
-          </div>
 
+
+          </div>
       </section>
 
 

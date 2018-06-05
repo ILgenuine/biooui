@@ -143,7 +143,9 @@ label{
   .grey{
     color:#7b7b7b !important;
   }
-
+  .display-sm-show {
+    display: none;
+  }
 
   .navbar-toggler{
     border-color:white !important;
@@ -544,6 +546,7 @@ LOGIN
   font-size: 18px;
   width: 30%;
   margin-left: 17px;
+  transition: all 1s;
 }
 .login-mt-40px {
       margin: 40px 0px;
@@ -586,10 +589,14 @@ PROFILE
     border-radius: 10px;
 }
 .profile-from-size-auto {
-  width: 70%;
+  width: 80%;
 }
 .profile-mb-0 {
   margin-bottom: 0px!important;
+}
+.profile-bnt-size {
+    overflow: hidden;
+    width: 120px;
 }
 /*-----------------------------------
 END PROFILE
@@ -616,6 +623,14 @@ MYCOURSE
 .mycourse-font-md {
   font-size: calc(0.5vw + 13px);
 }
+
+.text-menu {
+  color: #fff;
+}
+.text-menu:hover {
+  color: #f04345;
+  transition: all 0.5s;
+}
 /*-----------------------------------
 END MYCOURSE
 -------------------------------------*/
@@ -635,10 +650,14 @@ BOOKING
 .booking-font-respon {
     font-size: calc(0.8vw + 14px);
 }
+.booking-font-responsm {
+    font-size: calc(0.5vw + 14px);
+}
 .booking-bnt-size {
     overflow: hidden;
     width: 190px;
     margin-top: 0px;
+    margin-bottom: 15px;
 }
 .booking-bnt-right {
     background-color: #f04343;
@@ -681,9 +700,13 @@ th,td {
   margin-right: 15px;
 }
 .booking-text-top {
-      margin-top: 10px;
+  margin-top: 10px;
 }
-/*---------------------------------------
+.booking-bnt-position {
+  margin-bottom: 0px;
+  margin-top: -25px;
+}
+/*---------------------------------------=
 END BOOKING
 -----------------------------------------*/
 
@@ -1001,7 +1024,7 @@ END Contact Us
     LOGIN 768
   --------------------------------------*/
     .register-from-size {
-        margin: 0px 120px;
+        margin: 0px 100px;
     }
     .bnt-register-forget  {
       background-color:transparent;
@@ -1130,6 +1153,10 @@ END Contact Us
       margin-left: -25px;
       margin-right: -25px;
   }
+  .booking-bnt-position {
+      margin-bottom: 0px;
+      margin-top: 40px;
+  }
   /*------------------------------------
   END BOOKING 768 
   --------------------------------------*/
@@ -1247,6 +1274,9 @@ END Contact Us
   /*------------------------------------
   END LOGIN min 414
   --------------------------------------*/
+  .display-sm-show {
+    display: inherit;
+  }
 
 
 /*------------------------------------

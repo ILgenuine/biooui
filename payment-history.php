@@ -26,24 +26,23 @@
         </div>
 
 
-        <div class="row">
-          <div class="col-md-4 col-12 pb-5 ">
+        <div class="row pb-5">
+          <div class="col-md-4 col-12">
             <div class="profile-font22">
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
+                <a href="#" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
+                <a href="#" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-white"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
+                <a href="#" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
               </div>
             </div>
           </div>
 
 
-
-          <div class="col-md-8 col-12 pb-5">
+          <div class="col-md-8 col-12">
             <div class="col-12">
               <div class="text-white text-md-left text-center">
                 <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
