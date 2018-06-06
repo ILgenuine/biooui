@@ -82,34 +82,76 @@
                       </div>
                       <div class="course-box course-detail-box">
                         <div class="course-header">
-                          <a href="#"> 
-                            <i class="fa fa-star float-left" aria-hidden="true"></i>
-                            <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
-                          </a>
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
+                                </a>
+                              </div>
+                          </div>
                         </div>
                         <div class="course-header">
-                          <a href="#">
-                            <i class="fa fa-star float-left" aria-hidden="true"></i>
-                            <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
-                          </a>
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
+                                </a>
+                              </div>
+                          </div>
                         </div>
                         <div class="course-header">
-                          <a href="#">
-                            <i class="fa fa-star float-left" aria-hidden="true"></i>
-                            <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
-                          </a>
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
+                                </a>
+                              </div>
+                          </div>
                         </div>
                         <div class="course-header">
-                          <a href="#">
-                            <i class="fa fa-star float-left" aria-hidden="true"></i>
-                            <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชียเบื้องต้น</font>
-                          </a>
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
+                                </a>
+                              </div>
+                          </div>
                         </div>
                         <div class="course-header">
-                          <a href="#">
-                            <i class="fa fa-star float-left" aria-hidden="true"></i>
-                            <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
-                          </a>
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
+                                </a>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="course-header">
+                          <div class="row">
+                            <div class="col-lg-1 col-md-1 col-2 mb-1">
+                              <i class="fa fa-star float-left" aria-hidden="true"></i>
+                            </div>
+                              <div class="col-lg-11 col-md-11 col-9 mb-1">
+                                <a href="#">
+                                  <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
+                                </a>
+                              </div>
+                          </div>
                         </div>
                       </div>
                     </div>

@@ -17,12 +17,12 @@
     <div class="wrapper">
       <div class="container">
 
-        <div class="row">
+        <div class="row py-5">
           <div class="col-12 text-lg-left text-center">
-            <h1 class="login-font-head" style="margin-top: 80px;word-spacing: 10px;">
+            <h1 class="login-font-head" style="word-spacing: 10px;">
              <i class="fa fa-user" aria-hidden="true"></i> <font class="text-white">สมัครสมาชิก</font>
             </h1>
-            <div class="text-white" style="margin-top: 30px;letter-spacing: 1px;">
+            <div class="text-white payment-font-16" style="letter-spacing: 1px;">
               <p>กรอกข้อมูลให้ครบทุกช่อง เพื่อใช้ในการติดต่อยืนยันการสมัครสมาชิก</p>
             </div>
           </div>

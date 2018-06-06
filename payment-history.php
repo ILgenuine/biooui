@@ -30,13 +30,13 @@
           <div class="col-md-4 col-12">
             <div class="profile-font22">
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
+                <a href="profile.php" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
+                <a href="mycourse.php" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
+                <a href="payment-history.php" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
             <div class="col-12">
               <div class="text-white text-md-left text-center">
                 <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
-                <p class="text-white">2,500 บาท ชำระวันที่ 20/06/2561</p>
+                <p class="text-white payment-font-16">2,500 บาท ชำระวันที่ 20/06/2561</p>
                 <hr class="my-4" style="border-color: #fff;">
               </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="col-12">
               <div class="text-white text-md-left text-center">
                 <h3 class="payment-font-respon">พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</h3>
-                <p class="text-white">3,500 บาท ชำระวันที่ 12/06/2561</p>
+                <p class="text-white payment-font-16">3,500 บาท ชำระวันที่ 12/06/2561</p>
                 <hr class="my-4" style="border-color: #fff;">
               </div>
             </div>

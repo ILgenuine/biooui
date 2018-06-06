@@ -23,7 +23,7 @@
             <h1 class="login-font-head">
               <i class="fa fa-sign-in" aria-hidden="true"></i> <font class="text-white">เข้าสู่ระบบ</font>
             </h1>
-            <p class="text-white" style="letter-spacing: 1px;">กรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ</p>
+            <p class="text-white payment-font-16" style="letter-spacing: 1px;">กรอกชื่อผู้ใช้และรหัสผ่านเพื่อเข้าสู่ระบบ</p>
           </div>
         </div>
 

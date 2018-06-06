@@ -30,13 +30,13 @@
           <div class="col-md-4 col-12">
             <div class="profile-font22">
               <div class="mb-2">
-                <a href="#" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
+                <a href="profile.php" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
               </div>
               <div class="mb-2">
-                <a href="#" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
+                <a href="mycourse.php" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
               </div>
               <div class="mb-2">
-                <a href="#" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
+                <a href="payment-history.php" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
               </div>
             </div>
           </div>
@@ -44,6 +44,8 @@
 
 
           <div class="col-md-8 col-12">
+
+      
             <div class="col-12">
               <div class="text-white text-md-left text-center">
                 <h3 class="payment-font-respon">เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4</h3>
@@ -69,7 +71,6 @@
                     </h3>
                   </a>
                 </div>
-
                 <div class="col-12" style="margin-bottom: 0px;">
                   <p class="text-white mycourse-font-md">เวลาที่เลือกจอง</p>
                   <div class="btn-group btn-group-lg mr-3 mb-3">
@@ -84,7 +85,29 @@
               </div>
               <hr style="border-color: #fff;">
             </div>
+
           </div>
+
+
+          <div class="col-12">
+<!--             <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <span class="page-link">Previous</span>
+              </li>
+              <li class="page-item active">
+                <span class="page-link">
+                  1
+                  <span class="sr-only">(current)</span>
+                </span>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul> -->
+          </div>
+
         </div> 
         
 
