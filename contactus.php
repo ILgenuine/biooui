@@ -87,6 +87,17 @@
                      <button type="button" class="btn booking-bnt-size register-bnt">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
                   </div>
                 </div>
+
+
+
+
+
+
+
+
+
+
+                
             </div>
 
 

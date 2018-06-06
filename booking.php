@@ -17,7 +17,7 @@
     <div class="wrapper">
       <div class="container">
 
-            <div class="row py-3">
+            <div class="row pt-3">
               <div class="col-12 login-text-center-414">
                 <h1 class="login-font-head">
                  <i class="fa fa-clock-o red" aria-hidden="true"></i> <font class="text-white">จองเวลาเรียน</font>
@@ -25,7 +25,7 @@
               </div>
 
               <div class="col-md-8 col-12">
-                <h1 class="booking-font-respon text-white text-md-left text-center">
+                <h1 class="booking-font-respon text-white text-md-left text-center" style="margin-bottom: 0px;margin-top: 5px;">
                  เรียนรู้โลก Biology เบื้องต้นสำหรับ ม.4
                 </h1>           
               </div>
@@ -36,7 +36,7 @@
               </div>
 
               <div class="col-12 text-md-left text-center booking-bnt-position">
-                <p class="text-white mycourse-font-md">เวลาที่เลือกจอง</p>
+                <p class="text-white mycourse-font-md" style="margin-bottom: 0px;">เวลาที่เลือกจอง</p>
                 <div class="btn-group btn-group-lg mr-3 mb-3">
                   <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-times" aria-hidden="true"></i></button>
                   <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
