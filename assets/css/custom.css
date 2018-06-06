@@ -191,7 +191,7 @@ label{
   .nav-item font{
     font-size: calc(0.2vw + 16px);
     border-bottom: 2px solid transparent;
-    transition: all 1s;
+    transition: all 0.25s;
   }
 
   .desktop-nav .nav-item font{
@@ -273,11 +273,11 @@ label{
 
   .search-form{
     border: none;
-    border-radius: 16px 16px 16px 16px;
+    border-radius: 0px 16px 16px 0px !important;
   }
 
   .search-form:focus{
-    border-radius: 16px 16px 16px 16px;
+    border-radius: 0px 16px 16px 0px !important;
     box-shadow: none;
   }
 
@@ -355,6 +355,15 @@ INDEX
     color:white;
   }
 
+  .course-header:hover font{
+    text-shadow: 3px 3px 8px #f04345;
+  }
+
+  .course-header:hover i{
+    text-shadow: none;
+  }
+
+
   .course-card{
     position:relative;
     width:100%;
@@ -377,6 +386,17 @@ INDEX
     overflow:hidden;
     height:40vh;
   }
+
+  .card-img-top{
+    transition: all 1.5s ease-in-out;
+  }
+
+  .course-card-img:hover .card-img-top{
+    top:0%;
+    left:0%;
+    transform: scale(1.1);
+  }
+
 
   .bookmark{
     color:#f04345;
@@ -457,6 +477,7 @@ INDEX
   .course-box{
     height:41vh;
     overflow-y: auto;
+    overflow-x:hidden;
   }
 
   .discount{
@@ -932,6 +953,10 @@ END Contact Us
         padding-top: 1.5vh;
       }
 
+      .bookmark{
+        top:-3.5%;
+      }
+
     /*------------------------------------*
     END INDEX 1024
     *------------------------------------*/
@@ -1143,7 +1168,7 @@ END Contact Us
 
 
   /*------------------------------------
-  BOOKING 768 
+  BOOKING 768
   --------------------------------------*/
     th, td {
       border: 2px solid #e1e1e1;
@@ -1167,7 +1192,7 @@ END Contact Us
       margin-top: 40px;
   }
   /*------------------------------------
-  END BOOKING 768 
+  END BOOKING 768
   --------------------------------------*/
 
   /*-------------------------------------
@@ -1329,7 +1354,7 @@ END MYCOURSE 414
     }
 
     .header-height{
-      height:50vh;
+      height:35vh;
       padding-top: 2vh;
       padding-bottom: 2vh;
     }
@@ -1340,6 +1365,27 @@ END MYCOURSE 414
 
     .header-height .mt-4{
       height: calc(2vw + 50px);
+    }
+
+    .header-height .header-text h1 {
+      font-size: calc(2vw + 30px);
+    }
+
+    .header-height .header-text h2 {
+      font-size: calc(2vw + 16px);
+    }
+
+    .header-height .header-text label {
+      font-size: calc(2vw + 9px);
+    }
+
+    .header-text .input-group span {
+      color: white;
+      font-size: calc(0.2vw + 20px);
+    }
+
+    .header-text .input-group .input-group-prepend {
+      padding: 12px 10px 5px 5px;
     }
 
     .course-card{
@@ -1593,6 +1639,10 @@ END MYCOURSE 414
   Index 320
   *------------------------------------*/
 
+  .header-height{
+    padding:15px 0px 0px 15px;
+  }
+
   .course-box {
     height:38vh;
   }
@@ -1605,6 +1655,19 @@ END MYCOURSE 414
   .reason-description {
     height: 13vh;
   }
+
+  .header-height .header-text h1 {
+    font-size: calc(2vw + 22px);
+  }
+
+  .header-height .header-text h2 {
+    font-size: calc(2vw + 13px);
+  }
+
+  .header-height .header-text label {
+    font-size: calc(2vw + 10px);
+  }
+
 
   /*------------------------------------*
   END Index 320

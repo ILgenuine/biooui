@@ -118,35 +118,61 @@
                   </div>
               </div>
               <div class="col-lg-6 col-12">
-                  <div class="course-box">
-                    <div class="course-header">
+                <div class="course-box">
+                  <div class="row">
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
                       <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
                     </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
                     </div>
-                    <div class="course-header">
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
                       <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
                     </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชียเบื้องต้น</font>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
                     </div>
-                    <div class="course-header">
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
                       <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
                     </div>
-                    <div class="course-header">
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
                       <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                      <i class="fa fa-star float-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                      <i class="fa fa-star float-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                      <i class="fa fa-star float-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                      <i class="fa fa-star float-left" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                      <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
                     </div>
                   </div>
+                </div>
                   <div class="all-course">
                     <div class="course-header text-right">
-                      <a href="#">
+                      <a href="course.php">
                         <i class="fa fa-share" aria-hidden="true"></i>
                         <font>บทเรียนทั้งหมด</font>
                       </a>
@@ -169,30 +195,60 @@
               </div>
               <div class="col-lg-6 col-12 order-lg-2 order-md-3 order-3">
                   <div class="course-box">
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
-                    </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font>
-                    </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
-                    </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชียเบื้องต้น</font>
-                    </div>
-                    <div class="course-header">
-                      <i class="fa fa-star float-left" aria-hidden="true"></i>
-                      <font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font>
+                    <div class="row">
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>เรียนรู้โลก Boilogy เบื้องต้นสำหรับ ม.5</font></a>
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-2 mb-3 course-header">
+                        <i class="fa fa-star float-left" aria-hidden="true"></i>
+                      </div>
+                      <div class="col-lg-11 col-md-11 col-9 mb-3 px-lg-3 px-0 course-header">
+                        <a href="coursedetail.php"><font>พฤติกรรมของสัตว์เลือดอุ่นในทวีปเอเชีย</font></a>
+                      </div>
                     </div>
                   </div>
                   <div class="all-course">
                     <div class="course-header text-right">
-                      <a href="#">
+                      <a href="course.php">
                         <i class="fa fa-share" aria-hidden="true"></i>
                         <font>บทเรียนทั้งหมด</font>
                       </a>
