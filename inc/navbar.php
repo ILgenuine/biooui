@@ -48,6 +48,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="contactus.php"><font class="white">ติดต่อเรา</font></a>
                     </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="mycourse.php"><i class="fa fa-book red" aria-hidden="true"></i><font class="white">คอร์สเรียนที่รอชำระเงิน(1)</font></a>
+                    </li>
                 </ul>
         </div>
       </div>
@@ -58,16 +61,16 @@
     <?php $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']; ?>
     <ul class="navbar-nav desktop-nav mr-auto">
       <li class="nav-item ml-0">
-        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/index.php" || $actual_link == "http://localhost/Biooui/index.php") echo "active"; else ""; ?>" href="index.php"><font class="red">หน้าหลัก</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/biooui/index.php" || $actual_link == "http://localhost/biooui/index.php") echo "active"; else ""; ?>" href="index.php"><font class="red">หน้าหลัก</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/aboutus.php" || $actual_link == "http://localhost/Biooui/aboutus.php") echo "active"; else ""; ?>" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/biooui/aboutus.php" || $actual_link == "http://localhost/biooui/aboutus.php") echo "active"; else ""; ?>" href="aboutus.php"><font class="red">เกี่ยวกับเรา</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/course.php" || $actual_link == "http://localhost/Biooui/course.php") echo "active"; else ""; ?>" href="course.php"><font class="red">คอร์สเรียน</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/biooui/course.php" || $actual_link == "http://localhost/biooui/course.php") echo "active"; else ""; ?>" href="course.php"><font class="red">คอร์สเรียน</font></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link <?php if($actual_link == "http://localhost/Biooui/contactus.php" || $actual_link == "http://localhost/Biooui/contactus.php") echo "active"; else ""; ?>" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
+        <a class="nav-link <?php if($actual_link == "http://localhost/biooui/contactus.php" || $actual_link == "http://localhost/biooui/contactus.php") echo "active"; else ""; ?>" href="contactus.php"><font class="red">ติดต่อเรา</font></a>
       </li>
     </ul>
 

@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-12 tap-a">
                       <div class="aboutus-description course-description mb-3">
-                            <font > 66/22-23 สวนหลวงสแควร์ ซ.จุฬาลงกรณ์ 12 แขวงวังใหม่ เขตประทุมวัน กทม. 10330</font>            
+                            <font > 66/22-23 สวนหลวงสแควร์ ซ.จุฬาลงกรณ์ 12 แขวงวังใหม่ เขตประทุมวัน กทม. 10330</font>
                       </div>
                       <div class="aboutus-description course-description">
                             <font>โทรศัพท์:(662)-416-0084(ต่อ 301)</font>
@@ -54,7 +54,7 @@
                             <font>อีเมล์:admin@biooui.com</font>
                       </div>
                       <div class="aboutus-description course-description">
-                            <font>เว็บไซต์:www.biooui.com </font>  
+                            <font>เว็บไซต์:www.biooui.com </font>
                        </div>
                       </div>
                   </div>
@@ -83,21 +83,10 @@
                      <label class="text-white register-label">รายละเอียด</label>
                      <textarea type="text" class="form-control" rows="6"></textarea>
                   </div>
-                  <div class="col-12 col-8 mx-auto mt-3 ">
-                     <button type="button" class="btn booking-bnt-size register-bnt can-text can-text-2 size-fro ">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
+                  <div class="col-lg-12 col-8 mx-auto mt-3 ">
+                     <button type="button" class="btn booking-bnt-size register-bnt can-text can-text-2 size-fro ml-0">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
                   </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-                
             </div>
 
 
@@ -121,9 +110,3 @@
 
   </body>
 </html>
-
-
-<script>
-$("body").css("background-color");
-
-</script>

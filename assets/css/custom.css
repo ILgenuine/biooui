@@ -392,9 +392,9 @@ INDEX
   }
 
   .course-card-img:hover .card-img-top{
-    top:0%;
-    left:0%;
-    transform: scale(1.1);
+    top:50%;
+    left:50%;
+    transform: scale(1.1) translate(-50%,-50%);
   }
 
 
@@ -474,12 +474,12 @@ INDEX
     color:#CCC;
   }
 
-  .course-box{
-    height:41vh;
-    overflow-y: auto;
-    overflow-x:hidden;
+  .course-box {
+      margin-bottom: 1vh;
+      height: 41vh;
+      overflow-y: auto;
+      overflow-x: hidden;
   }
-
   .discount{
     margin-left: 1vw;
     font-size: calc(0.2vw + 14px) !important;
@@ -1035,7 +1035,7 @@ END Contact Us
 /*---------------------------------*
 contactus 1024
 *----------------------------------*/
-.size-fro {   
+.size-fro {
     margin-left: 0px;
 }
 /*---------------------------------*
@@ -1221,7 +1221,7 @@ contactus END 1024
 /*---------------------------------*
 contactus 1024
 *----------------------------------*/
-.size-fro {   
+.size-fro {
     margin-left: 245px;
 }
 /*---------------------------------*

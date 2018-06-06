@@ -18,7 +18,7 @@
         <!-- Header section -->
         <section class="container">
             <div class="row">
-              <div class="col-lg-7 col-12 header-height">
+              <div class="col-lg-8 col-12 header-height">
                   <div class="header-text">
                     <h1 class="white">เรียนรู้โลกของชีววิทยา</h1>
                   </div>
@@ -393,9 +393,3 @@
 
   </body>
 </html>
-
-
-<script>
-$("body").css("background-color");
-
-</script>

@@ -1,7 +1,7 @@
 <footer class="footer mt-5">
   <nav class="navbar navbar-expand-lg navbar-dark top">
     <div class="container">
-      <div class="footer-logo mr-lg-auto mr-md-auto mx-auto text-lg-left text-md-left  text-center">
+      <div class="footer-logo ml-lg-0 mr-lg-auto mr-md-auto mx-auto text-lg-left text-md-left  text-center">
         <div class="logo-frame2  mx-auto">
           <a class="" href="#"><img src="assets/images/logo.png"></a>
         </div>
