@@ -73,7 +73,7 @@
 
     <ul class="navbar-nav desktop-nav2 ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#"><i class="fa fa-book red" aria-hidden="true"></i><font class="red">คอร์สเรียนที่รอชำระเงิน(1)</font></a>
+        <a class="nav-link" href="mycourse.php"><i class="fa fa-book red" aria-hidden="true"></i><font class="red">คอร์สเรียนที่รอชำระเงิน(1)</font></a>
       </li>
     </ul>
   </div>
