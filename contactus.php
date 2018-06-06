@@ -33,11 +33,11 @@
                   <div class="col-12">
                     <iframe class="g-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.5975281783894!2d100.52256341542832!3d13.742799790353349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2992c2dbb1dab%3A0x90931d78c9f631f4!2z4Liq4Lin4LiZ4Lir4Lil4Lin4LiH4Liq4LmB4LiE4Lin4Lij4LmM!5e0!3m2!1sth!2sth!4v1527758860299" width="100%" height="350"frameborder="0" style="border:0" allowfullscreen></iframe>
                   </div>
-                  <div class="col-12">
+                  <div class="col-12 ">
                     <div class="course-header">
                       <font class="red">BIOOUI</font>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 tap-a">
                       <div class="aboutus-description course-description mb-3">
                             <font > 66/22-23 สวนหลวงสแควร์ ซ.จุฬาลงกรณ์ 12 แขวงวังใหม่ เขตประทุมวัน กทม. 10330</font>            
                       </div>
@@ -83,8 +83,8 @@
                      <label class="text-white register-label">รายละเอียด</label>
                      <textarea type="text" class="form-control" rows="6"></textarea>
                   </div>
-                  <div class="col-12 mt-3">
-                     <button type="button" class="btn booking-bnt-size register-bnt">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
+                  <div class="col-12 col-8 mx-auto mt-3 ">
+                     <button type="button" class="btn booking-bnt-size register-bnt can-text can-text-2 size-fro ">ส่งข้อความ <i class="fa fa-share" aria-hidden="true"></i></button>
                   </div>
                 </div>
 
