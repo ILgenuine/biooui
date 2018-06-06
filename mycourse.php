@@ -73,11 +73,11 @@
                 </div>
                 <div class="col-12" style="margin-bottom: 0px;">
                   <p class="text-white mycourse-font-md">เวลาที่เลือกจอง</p>
-                  <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <div class="btn-group btn-group-lg mr-lg-3 mb-3">
                     <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
                     <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
                   </div>
-                  <div class="btn-group btn-group-lg mr-3 mb-3">
+                  <div class="btn-group btn-group-lg mr-lg-3 mb-3">
                     <button type="button" class="btn mycourse-bnt-forward"><i class="fa fa-clock-o" aria-hidden="true"></i></button>
                     <button type="button" class="btn mycourse-bnt-back">12/06/2561 10.00-12.00</button>
                   </div>                  

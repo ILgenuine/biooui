@@ -17,8 +17,8 @@
     <div class="wrapper">
       <div class="container">
 
-        <div class="row">
-          <div class="col-12 text-lg-left text-center" style="margin-top: 80px;margin-bottom: 40px;">
+        <div class="row py-5">
+          <div class="col-12 text-lg-left text-center">
             <h1 class="login-font-head">
              <i class="fa fa-th-large" aria-hidden="true"></i> <font class="text-white">ยินดีต้อนรับ คุณสมชาย ขยันเรียน</font>
             </h1>
