@@ -106,7 +106,7 @@ label{
 
   body{
     background: #000b35 url('../../assets/images/footer.jpg') no-repeat center bottom;
-    background-size: 100vw 50vh;
+    background-size: 100vw 35vh;
     min-height:100vh;
     font-family: 'kanitregular';
     font-size: calc(0.2vw + 12px);
@@ -216,7 +216,13 @@ label{
     display:flex;
     flex-direction: row;
   }
-
+  .page-link:hover {
+      color: #fff;
+      text-decoration: none;
+      background-color: #f04344;
+      border-color: #f04344;
+      transition: all 0.5s;
+  }
   .footer-navigator font{
     font-size:2vmin;
   }
@@ -546,7 +552,7 @@ LOGIN
   font-size: 18px;
   width: 30%;
   margin-left: 17px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .login-mt-40px {
       margin: 40px 0px;
@@ -639,6 +645,9 @@ PAYMENT
 -------------------------------------*/
 .payment-font-respon {
     font-size: calc(0.8vw + 14px);
+}
+.payment-font-16 {
+  font-size: 16px;
 }
 /*-----------------------------------
 END PAYMENT

@@ -30,13 +30,13 @@
           <div class="col-md-4 col-12">
             <div class="profile-font22">
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
+                <a href="profile.php" class="text-menu"><i class="fa fa-user red" aria-hidden="true"></i> <font>ประวัติส่วนตัว</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
+                <a href="mycourse.php" class="text-menu"><i class="fa fa-book red" aria-hidden="true"></i> <font>คอร์สเรียนของฉัน</font></a>
               </div>
               <div class="mb-2 text-md-left text-center">
-                <a href="#" class="text-menu" style="word-spacing: 5px;"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
+                <a href="payment-history.php" class="text-menu"><i class="fa fa-clock-o red" aria-hidden="true"></i> <font>ประวัติการชำระเงิน</font></a>
               </div>
             </div>
           </div>

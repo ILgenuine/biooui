@@ -272,7 +272,7 @@
             </div>
           </div>
           <ul class="pagination justify-content-center">
-            <li class="page-item disabled">
+            <li class="page-item">
               <span class="page-link">Previous</span>
             </li>
             <li class="page-item active">
