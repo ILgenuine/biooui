@@ -1,7 +1,7 @@
 <footer class="footer mt-5">
   <nav class="navbar navbar-expand-lg navbar-dark top">
     <div class="container">
-      <div class="footer-logo mr-lg-auto mr-md-auto mx-auto text-center">
+      <div class="footer-logo mr-lg-auto mr-md-auto mx-auto text-lg-left text-md-left  text-center">
         <div class="logo-frame2  mx-auto">
           <a class="" href="#"><img src="assets/images/logo.png"></a>
         </div>
@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <div class="footer-logo ml-lg-auto ml-md-auto  mx-auto">
+      <div class="footer-logo ml-lg-auto mr-lg-0 ml-md-auto  mx-auto">
         <div class="my-auto">
           <div class="footer-navigator mb-lg-3 mb-md-0 text-md-right text-center">
             <a href="index.php"><font class="white">หน้าหลัก</font></a><font class="white"> |</font>

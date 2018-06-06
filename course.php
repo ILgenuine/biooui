@@ -28,7 +28,7 @@
             </div>
             <div class="col-12">
                 <div class="row">
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img01.jpg" alt="Card image cap">
@@ -58,7 +58,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img02.jpg" alt="Card image cap">
@@ -88,7 +88,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img03.jpg" alt="Card image cap">
@@ -118,7 +118,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img04.jpg" alt="Card image cap">
@@ -148,7 +148,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img03.jpg" alt="Card image cap">
@@ -178,7 +178,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img04.jpg" alt="Card image cap">
@@ -208,7 +208,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img01.jpg" alt="Card image cap">
@@ -238,7 +238,7 @@
                         </a>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12">
+                    <div class="col-lg-3 col-md-6 col-12">
                       <div class="card course-card">
                         <div class="course-card-img">
                           <img class="card-img-top" src="assets/images/img02.jpg" alt="Card image cap">
